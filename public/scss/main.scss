@@ -1,4 +1,6 @@
 @charset "UTF-8";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
 
 // [1] Configuration & Helpers
 @import
@@ -11,9 +13,12 @@
   "base/base";
 
 // [4] Layout-related Section
+@import "layout/grid";
 
 // [5] Components
 
 // [6] Page-specific Styles
 
 // [7] Themes
+
+@import "~bootstrap/scss/bootstrap";
