@@ -8,6 +8,16 @@ export default function App() {
             <div className="bg-light" style={{height:"768px"}}>
             </div>
             {/* [2] About */}
+            <Container>
+                <Row>
+                    <Col lg={12}>
+                        <div className="text-center">
+                            <h6>ABOUT</h6>
+                            <h4>Lorem Ipsum</h4>
+                        </div>
+                    </Col>
+                </Row>
+            </Container>
             {/* [3] Service - Development Section 1 */}
             {/* [4] Service - Development Section 2 */}
             {/* [5] Service - Development Section 3 */}
