@@ -17,13 +17,19 @@ export default function App() {
                         </div>
                     </Col>
                 </Row>
+                <Row>
+                    <Col lg={12}>
+                        <div>
+                        </div>
+                    </Col>
+                </Row>
             </Container>
             {/* [3] Service - Development Section 1 */}
             <Container>
                 <Row>
                     <Col lg={12}>
                         <div className="text-center">
-                            <h6>ABOUT</h6>
+                            <h6>PROFESSIONAL</h6>
                             <h4>Lorem Ipsum</h4>
                         </div>
                     </Col>
@@ -34,7 +40,7 @@ export default function App() {
                 <Row>
                     <Col lg={12}>
                         <div className="text-center">
-                            <h6>ABOUT</h6>
+                            <h6>PROGRESSIVE</h6>
                             <h4>Lorem Ipsum</h4>
                         </div>
                     </Col>
@@ -45,7 +51,7 @@ export default function App() {
                 <Row>
                     <Col lg={12}>
                         <div className="text-center">
-                            <h6>ABOUT</h6>
+                            <h6>DATA-DRIVEN</h6>
                             <h4>Lorem Ipsum</h4>
                         </div>
                     </Col>
@@ -56,7 +62,7 @@ export default function App() {
                 <Row>
                     <Col lg={12}>
                         <div className="text-center">
-                            <h6>ABOUT</h6>
+                            <h6>INNOVATIVE</h6>
                             <h4>Lorem Ipsum</h4>
                         </div>
                     </Col>
@@ -67,7 +73,7 @@ export default function App() {
                 <Row>
                     <Col lg={12}>
                         <div className="text-center">
-                            <h6>ABOUT</h6>
+                            <h6>CREATIVE</h6>
                             <h4>Lorem Ipsum</h4>
                         </div>
                     </Col>
@@ -78,7 +84,7 @@ export default function App() {
                 <Row>
                     <Col lg={12}>
                         <div className="text-center">
-                            <h6>ABOUT</h6>
+                            <h6>PROACTIVE</h6>
                             <h4>Lorem Ipsum</h4>
                         </div>
                     </Col>
@@ -89,7 +95,7 @@ export default function App() {
                 <Row>
                     <Col lg={12}>
                         <div className="text-center">
-                            <h6>ABOUT</h6>
+                            <h6>TEAM</h6>
                             <h4>Lorem Ipsum</h4>
                         </div>
                     </Col>
@@ -100,7 +106,7 @@ export default function App() {
                 <Row>
                     <Col lg={12}>
                         <div className="text-center">
-                            <h6>ABOUT</h6>
+                            <h6>SERVICES</h6>
                             <h4>Lorem Ipsum</h4>
                         </div>
                     </Col>
@@ -111,7 +117,7 @@ export default function App() {
                 <Row>
                     <Col lg={12}>
                         <div className="text-center">
-                            <h6>ABOUT</h6>
+                            <h6>CONTACT</h6>
                             <h4>Lorem Ipsum</h4>
                         </div>
                     </Col>
