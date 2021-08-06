@@ -1,6 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
+import img from "../public/assets/asset-3.svg";
+
 export default function App() {
     return (
         <>
@@ -20,7 +22,7 @@ export default function App() {
                 <Row>
                     <Col lg={12}>
                         <div>
-                            <img src="public/assets/asset-3.svg" />
+                            <img src={img} />
                         </div>
                     </Col>
                 </Row>

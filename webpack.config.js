@@ -22,6 +22,10 @@ module.exports = {
             test: /\.s[ac]ss$/i,
             use: ["style-loader", "css-loader", "sass-loader"]
   	    }, {
+            test: /\.(png|woff|woff2|eot|ttf|svg)$/,
+            use: ["url-loader"]
+
+        }, {
             test: /\.js$/,
             exclude: /node_modules/,
             use: ["babel-loader"]
