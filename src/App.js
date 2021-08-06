@@ -20,6 +20,7 @@ export default function App() {
                 <Row>
                     <Col lg={12}>
                         <div>
+                            <img src="public/assets/asset-3.svg" />
                         </div>
                     </Col>
                 </Row>
