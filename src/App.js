@@ -11,11 +11,11 @@ export default function App() {
             </div>
             {/* [2] About */}
             <Container>
-                <Row>
+                <Row style={{marginTop:"40px", marginBottom:"20px"}}>
                     <Col lg={12}>
                         <div className="text-center">
-                            <h6>ABOUT</h6>
-                            <h4>Lorem Ipsum</h4>
+                            <h6 style={{marginBlockStart:"16px",marginBlockEnd:"16px"}}>ABOUT</h6>
+                            <h4 style={{marginBlockStart:"16px",marginBlockEnd:"16px"}}>Lorem Ipsum</h4>
                         </div>
                     </Col>
                 </Row>
