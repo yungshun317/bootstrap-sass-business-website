@@ -4,6 +4,16 @@ import { Container, Row, Col } from "react-bootstrap";
 import img from "../public/assets/asset-3.svg";
 
 export default function App() {
+    const rowStyle = {
+        marginTop: "40px",
+        marginBottom: "20px"
+    }
+
+    const fontStyle = {
+        marginBlockStart:"16px",
+        marginBlockEnd:"16px"
+    }
+
     return (
         <>
             {/* [1] Hero Video */}
@@ -11,11 +21,11 @@ export default function App() {
             </div>
             {/* [2] About */}
             <Container>
-                <Row style={{marginTop:"40px", marginBottom:"20px"}}>
+                <Row style={rowStyle}>
                     <Col lg={12}>
                         <div className="text-center">
-                            <h6 style={{marginBlockStart:"16px",marginBlockEnd:"16px"}}>ABOUT</h6>
-                            <h4 style={{marginBlockStart:"16px",marginBlockEnd:"16px"}}>Lorem Ipsum</h4>
+                            <h6 style={fontStyle}>ABOUT</h6>
+                            <h4 style={fontStyle}>Lorem Ipsum</h4>
                         </div>
                     </Col>
                 </Row>
