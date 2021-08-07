@@ -5,6 +5,7 @@ import aboutImg from "../public/assets/asset-3.svg";
 import professionalImg from "../public/assets/asset-2.svg";
 import progressiveImg from "../public/assets/asset-1.svg";
 import dataDrivenImg from "../public/assets/wordcloud.png";
+import teamImg from "../public/assets/Team.png";
 
 export default function App() {
     const rowStyle = {
@@ -134,6 +135,13 @@ export default function App() {
                         <div className="text-center">
                             <h6 style={fontStyle}>TEAM</h6>
                             <h4 style={fontStyle}>Lorem Ipsum</h4>
+                        </div>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col lg={12}>
+                        <div>
+                            <img src={teamImg} />
                         </div>
                     </Col>
                 </Row>
