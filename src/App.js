@@ -4,6 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import aboutImg from "../public/assets/asset-3.svg";
 import professionalImg from "../public/assets/asset-2.svg";
 import progressiveImg from "../public/assets/asset-1.svg";
+import dataDrivenImg from "../public/assets/wordcloud.png";
 
 export default function App() {
     const rowStyle = {
@@ -77,11 +78,18 @@ export default function App() {
             </Container>
             {/* [5] Service - Development Section 3 */}
             <Container>
-                <Row>
+                <Row style={rowStyle}>
                     <Col lg={12}>
                         <div className="text-center">
-                            <h6>DATA-DRIVEN</h6>
-                            <h4>Lorem Ipsum</h4>
+                            <h6 style={fontStyle}>DATA-DRIVEN</h6>
+                            <h4 style={fontStyle}>Lorem Ipsum</h4>
+                        </div>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col lg={12}>
+                        <div>
+                            <img src={dataDrivenImg} />
                         </div>
                     </Col>
                 </Row>
