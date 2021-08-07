@@ -96,66 +96,66 @@ export default function App() {
             </Container>
             {/* [6] Service - Design Section 1 */}
             <Container>
-                <Row>
+                <Row style={rowStyle}>
                     <Col lg={12}>
                         <div className="text-center">
-                            <h6>INNOVATIVE</h6>
-                            <h4>Lorem Ipsum</h4>
+                            <h6 style={fontStyle}>INNOVATIVE</h6>
+                            <h4 style={fontStyle}>Lorem Ipsum</h4>
                         </div>
                     </Col>
                 </Row>
             </Container>
             {/* [7] Service - Design Section 2 */}
             <Container>
-                <Row>
+                <Row style={rowStyle}>
                     <Col lg={12}>
                         <div className="text-center">
-                            <h6>CREATIVE</h6>
-                            <h4>Lorem Ipsum</h4>
+                            <h6 style={fontStyle}>CREATIVE</h6>
+                            <h4 style={fontStyle}>Lorem Ipsum</h4>
                         </div>
                     </Col>
                 </Row>
             </Container>
             {/* [8] Service - Design Section 3 */}
             <Container>
-                <Row>
+                <Row style={rowStyle}>
                     <Col lg={12}>
                         <div className="text-center">
-                            <h6>PROACTIVE</h6>
-                            <h4>Lorem Ipsum</h4>
+                            <h6 style={fontStyle}>PROACTIVE</h6>
+                            <h4 style={fontStyle}>Lorem Ipsum</h4>
                         </div>
                     </Col>
                 </Row>
             </Container>
             {/* [9] Team */}
             <Container>
-                <Row>
+                <Row style={rowStyle}>
                     <Col lg={12}>
                         <div className="text-center">
-                            <h6>TEAM</h6>
-                            <h4>Lorem Ipsum</h4>
+                            <h6 style={fontStyle}>TEAM</h6>
+                            <h4 style={fontStyle}>Lorem Ipsum</h4>
                         </div>
                     </Col>
                 </Row>
             </Container>
             {/* [10] Pricing Table */}
             <Container>
-                <Row>
+                <Row style={rowStyle}>
                     <Col lg={12}>
                         <div className="text-center">
-                            <h6>SERVICES</h6>
-                            <h4>Lorem Ipsum</h4>
+                            <h6 style={fontStyle}>SERVICES</h6>
+                            <h4 style={fontStyle}>Lorem Ipsum</h4>
                         </div>
                     </Col>
                 </Row>
             </Container>
             {/* [11] Form */}
             <Container>
-                <Row>
+                <Row style={rowStyle}>
                     <Col lg={12}>
                         <div className="text-center">
-                            <h6>CONTACT</h6>
-                            <h4>Lorem Ipsum</h4>
+                            <h6 style={fontStyle}>CONTACT</h6>
+                            <h4 style={fontStyle}>Lorem Ipsum</h4>
                         </div>
                     </Col>
                 </Row>
