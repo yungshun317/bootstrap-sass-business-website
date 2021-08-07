@@ -1,7 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
-import img from "../public/assets/asset-3.svg";
+import aboutImg from "../public/assets/asset-3.svg";
+import professionalImg from "../public/assets/asset-2.svg";
 
 export default function App() {
     const rowStyle = {
@@ -32,18 +33,25 @@ export default function App() {
                 <Row>
                     <Col lg={12}>
                         <div>
-                            <img src={img} />
+                            <img src={aboutImg} />
                         </div>
                     </Col>
                 </Row>
             </Container>
             {/* [3] Service - Development Section 1 */}
             <Container>
-                <Row>
+                <Row style={rowStyle}>
                     <Col lg={12}>
                         <div className="text-center">
-                            <h6>PROFESSIONAL</h6>
-                            <h4>Lorem Ipsum</h4>
+                            <h6 style={fontStyle}>PROFESSIONAL</h6>
+                            <h4 style={fontStyle}>Lorem Ipsum</h4>
+                        </div>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col lg={12}>
+                        <div>
+                            <img src={professionalImg} />
                         </div>
                     </Col>
                 </Row>
