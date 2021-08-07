@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 import aboutImg from "../public/assets/asset-3.svg";
 import professionalImg from "../public/assets/asset-2.svg";
+import progressiveImg from "../public/assets/asset-1.svg";
 
 export default function App() {
     const rowStyle = {
@@ -58,11 +59,18 @@ export default function App() {
             </Container>
             {/* [4] Service - Development Section 2 */}
             <Container>
-                <Row>
+                <Row style={rowStyle}>
                     <Col lg={12}>
                         <div className="text-center">
-                            <h6>PROGRESSIVE</h6>
-                            <h4>Lorem Ipsum</h4>
+                            <h6 style={fontStyle}>PROGRESSIVE</h6>
+                            <h4 style={fontStyle}>Lorem Ipsum</h4>
+                        </div>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col lg={12}>
+                        <div>
+                            <img src={progressiveImg} />
                         </div>
                     </Col>
                 </Row>
