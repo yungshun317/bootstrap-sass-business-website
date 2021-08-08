@@ -14,8 +14,12 @@ export default function App() {
     }
 
     const fontStyle = {
-        marginBlockStart:"16px",
-        marginBlockEnd:"16px"
+        marginBlockStart: "16px",
+        marginBlockEnd: "16px"
+    }
+
+    const imgStyle = {
+        width: "100%"
     }
 
     return (
@@ -36,7 +40,7 @@ export default function App() {
                 <Row>
                     <Col lg={12}>
                         <div>
-                            <img src={aboutImg} />
+                            <img src={aboutImg} style={imgStyle} />
                         </div>
                     </Col>
                 </Row>
@@ -54,7 +58,7 @@ export default function App() {
                 <Row>
                     <Col lg={12}>
                         <div>
-                            <img src={professionalImg} />
+                            <img src={professionalImg} style={imgStyle} />
                         </div>
                     </Col>
                 </Row>
@@ -72,7 +76,7 @@ export default function App() {
                 <Row>
                     <Col lg={12}>
                         <div>
-                            <img src={progressiveImg} />
+                            <img src={progressiveImg} style={imgStyle} />
                         </div>
                     </Col>
                 </Row>
@@ -90,7 +94,7 @@ export default function App() {
                 <Row>
                     <Col lg={12}>
                         <div>
-                            <img src={dataDrivenImg} />
+                            <img src={dataDrivenImg} style={imgStyle} />
                         </div>
                     </Col>
                 </Row>
@@ -141,7 +145,7 @@ export default function App() {
                 <Row>
                     <Col lg={12}>
                         <div>
-                            <img src={teamImg} />
+                            <img src={teamImg} style={imgStyle} />
                         </div>
                     </Col>
                 </Row>
