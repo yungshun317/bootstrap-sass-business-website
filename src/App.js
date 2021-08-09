@@ -1,11 +1,14 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+// import ImageGallery from "react-image-gallery/src/ImageGallery";
 
 import aboutImg from "../public/assets/asset-3.svg";
 import professionalImg from "../public/assets/asset-2.svg";
 import progressiveImg from "../public/assets/asset-1.svg";
 import dataDrivenImg from "../public/assets/wordcloud.png";
 import teamImg from "../public/assets/Team.png";
+import TypographicSystemImg from "../public/assets/TypographicSystem.png";
+import ColorSystemImg from "../public/assets/ColorSystem.png";
 
 export default function App() {
     const rowStyle = {
@@ -21,7 +24,18 @@ export default function App() {
     const imgStyle = {
         width: "100%"
     }
-
+/*
+    const images = [
+        {
+            original: TypographicSystemImg,
+            thumbnail: TypographicSystemImg
+        },
+        {
+            original: ColorSystemImg,
+            thumbnail: ColorSystemImg
+        }
+    ];
+*/
     return (
         <>
             {/* [1] Hero Video */}
@@ -120,6 +134,15 @@ export default function App() {
                         </div>
                     </Col>
                 </Row>
+                {/*
+                <Row>
+                    <Col lg={12}>
+                        <div>
+                            <ImageGallery items={images} autoplay={true} showBullets={true} />
+                        </div>
+                    </Col>
+                </Row>
+                */}
             </Container>
             {/* [8] Service - Design Section 3 */}
             <Container>
