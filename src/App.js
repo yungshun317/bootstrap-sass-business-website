@@ -47,7 +47,7 @@ export default function App() {
             original: dashboardImg,
             thumbnail: dashboardImg
         }
-    ]
+    ];
 
     return (
         <>
