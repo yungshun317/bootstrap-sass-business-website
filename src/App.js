@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-// import ImageGallery from "react-image-gallery/src/ImageGallery";
+import ImageGallery from "react-image-gallery";
 
 import aboutImg from "../public/assets/asset-3.svg";
 import professionalImg from "../public/assets/asset-2.svg";
@@ -14,17 +14,17 @@ export default function App() {
     const rowStyle = {
         marginTop: "40px",
         marginBottom: "20px"
-    }
+    };
 
     const fontStyle = {
         marginBlockStart: "16px",
         marginBlockEnd: "16px"
-    }
+    };
 
     const imgStyle = {
         width: "100%"
-    }
-/*
+    };
+
     const images = [
         {
             original: TypographicSystemImg,
@@ -35,7 +35,7 @@ export default function App() {
             thumbnail: ColorSystemImg
         }
     ];
-*/
+
     return (
         <>
             {/* [1] Hero Video */}
@@ -134,7 +134,6 @@ export default function App() {
                         </div>
                     </Col>
                 </Row>
-                {/*
                 <Row>
                     <Col lg={12}>
                         <div>
@@ -142,7 +141,6 @@ export default function App() {
                         </div>
                     </Col>
                 </Row>
-                */}
             </Container>
             {/* [8] Service - Design Section 3 */}
             <Container>
