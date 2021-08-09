@@ -7,8 +7,10 @@ import professionalImg from "../public/assets/asset-2.svg";
 import progressiveImg from "../public/assets/asset-1.svg";
 import dataDrivenImg from "../public/assets/wordcloud.png";
 import teamImg from "../public/assets/Team.png";
-import TypographicSystemImg from "../public/assets/TypographicSystem.png";
-import ColorSystemImg from "../public/assets/ColorSystem.png";
+import typographicSystemImg from "../public/assets/TypographicSystem.png";
+import colorSystemImg from "../public/assets/ColorSystem.png";
+import dashboardImg from "../public/assets/GrafanaDashboard.png";
+import wireframeImg from "../public/assets/Wireframe&Sitemap.png";
 
 export default function App() {
     const rowStyle = {
@@ -25,16 +27,27 @@ export default function App() {
         width: "100%"
     };
 
-    const images = [
+    const brandingImages = [
         {
-            original: TypographicSystemImg,
-            thumbnail: TypographicSystemImg
+            original: typographicSystemImg,
+            thumbnail: typographicSystemImg
         },
         {
-            original: ColorSystemImg,
-            thumbnail: ColorSystemImg
+            original: colorSystemImg,
+            thumbnail: colorSystemImg
         }
     ];
+
+    const uxImages = [
+        {
+            original: wireframeImg,
+            thumbnail: wireframeImg
+        },
+        {
+            original: dashboardImg,
+            thumbnail: dashboardImg
+        }
+    ]
 
     return (
         <>
@@ -137,7 +150,7 @@ export default function App() {
                 <Row>
                     <Col lg={12}>
                         <div>
-                            <ImageGallery items={images} autoplay={true} showBullets={true} />
+                            <ImageGallery items={brandingImages} autoplay={true} showBullets={true} />
                         </div>
                     </Col>
                 </Row>
@@ -149,6 +162,13 @@ export default function App() {
                         <div className="text-center">
                             <h6 style={fontStyle}>PROACTIVE</h6>
                             <h4 style={fontStyle}>Lorem Ipsum</h4>
+                        </div>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col lg={12}>
+                        <div>
+                            <ImageGallery items={uxImages} autoplay={true} showBullets={true} />
                         </div>
                     </Col>
                 </Row>
