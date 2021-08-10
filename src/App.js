@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ImageGallery from "react-image-gallery";
+import "@google/model-viewer";
 
 import aboutImg from "../public/assets/asset-3.svg";
 import professionalImg from "../public/assets/asset-2.svg";
@@ -11,6 +12,7 @@ import typographicSystemImg from "../public/assets/TypographicSystem.png";
 import colorSystemImg from "../public/assets/ColorSystem.png";
 import dashboardImg from "../public/assets/GrafanaDashboard.png";
 import wireframeImg from "../public/assets/Wireframe&Sitemap.png";
+import model from "../public/assets/Model.glb";
 
 export default function App() {
     const rowStyle = {
@@ -133,6 +135,21 @@ export default function App() {
                         <div className="text-center">
                             <h6 style={fontStyle}>INNOVATIVE</h6>
                             <h4 style={fontStyle}>Lorem Ipsum</h4>
+                        </div>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col lg={12}>
+                        <div>
+                            <model-viewer src={model}
+                                          alt="A 3D model of an astronaut"
+                                          ar
+                                          ar-modes="webxr scene-viewer quick-look"
+                                          environment-image="neutral"
+                                          auto-rotate
+                                          camera-controls
+                                          style={{width:"800px",height:"600px"}}>
+                            </model-viewer>
                         </div>
                     </Col>
                 </Row>
