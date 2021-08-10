@@ -25,6 +25,14 @@ export default function App() {
         marginBlockEnd: "16px"
     };
 
+    const hrStyle = {
+        borderStyle: "solid",
+        borderWidth: "1px",
+        borderColor: "#HBHBHD",
+        marginBlockStart: "16px",
+        marginBlockEnd: "16px"
+    }
+
     const imgStyle = {
         width: "100%"
     };
@@ -228,6 +236,28 @@ export default function App() {
                         <div className="text-center">
                             <h6 style={fontStyle}>SERVICES</h6>
                             <h4 style={fontStyle}>Lorem Ipsum</h4>
+                        </div>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col sm={12} md={4}>
+                        <div className="text-center" style={{borderStyle:"solid",borderWidth:"1px",borderColor:"#HBHBHD"}}>
+                            <h2 style={fontStyle}>Lorem Ipsum</h2>
+                            <h1 style={fontStyle}>Lorem Ipsum</h1>
+                            <p style={fontStyle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus quis massa vel tempus. Nunc laoreet dolor sit amet massa pulvinar, ac tempor nibh pretium. Quisque interdum dolor eu varius varius.</p>
+                            <hr style={hrStyle} />
+                            <h6 style={fontStyle}>Lorem Ipsum</h6>
+                            <h6 style={fontStyle}>Lorem Ipsum</h6>
+                            <h6 style={fontStyle}>Lorem Ipsum</h6>
+                            <h6 style={fontStyle}>Lorem Ipsum</h6>
+                            <hr style={hrStyle} />
+                            <Row>
+                                <Col md={{span:8, offset:2}}>
+                                    <div>
+                                        <a className="btn btn-success" style={{marginBottom:"16px"}}>START</a>
+                                    </div>
+                                </Col>
+                            </Row>
                         </div>
                     </Col>
                 </Row>
