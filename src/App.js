@@ -121,7 +121,13 @@ export default function App() {
                     </Col>
                 </Row>
                 <Row>
-                    <Col lg={12}>
+                    <Col sm={12} md={6} className="d-flex align-items-center">
+                        <div>
+                            <h5>Lorem Ipsum</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec ornare arcu. Curabitur suscipit accumsan tellus ac ornare. Curabitur ac ligula ligula.</p>
+                        </div>
+                    </Col>
+                    <Col sm={12} md={6}>
                         <div>
                             <img src={dataDrivenImg} style={imgStyle} />
                         </div>
@@ -139,7 +145,7 @@ export default function App() {
                     </Col>
                 </Row>
                 <Row>
-                    <Col lg={12}>
+                    <Col sm={12} md={6}>
                         <div>
                             <model-viewer src={model}
                                           alt="A 3D model of an astronaut"
@@ -148,8 +154,15 @@ export default function App() {
                                           environment-image="neutral"
                                           auto-rotate
                                           camera-controls
-                                          style={{width:"800px",height:"600px"}}>
+                                          orientation="0 0 -45deg"
+                                          style={{width:"100%",height:"820px"}}>
                             </model-viewer>
+                        </div>
+                    </Col>
+                    <Col sm={12} md={6} className="d-flex align-items-center">
+                        <div>
+                            <h5>Lorem Ipsum</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec ornare arcu. Curabitur suscipit accumsan tellus ac ornare. Curabitur ac ligula ligula.</p>
                         </div>
                     </Col>
                 </Row>
