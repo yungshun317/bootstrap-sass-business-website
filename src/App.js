@@ -312,6 +312,26 @@ export default function App() {
                         </div>
                     </Col>
                 </Row>
+                <Row>
+                    <Col sm={12} md={6} d-flex align-items-center>
+                        <div className="text-center">
+                            <h5>Lorem Ipsum</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor, urna viverra facilisis tristique, nisl diam eleifend massa, id lobortis tellus sem sed libero. Aenean tristique ultrices felis, placerat sollicitudin augue lobortis ac.</p>
+                        </div>
+                    </Col>
+                    <Col xs={12} sm={6} md={3} d-flex align-items-center>
+                        <div className="text-center">
+                            <h5>Lorem Ipsum</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor, urna viverra facilisis tristique, nisl diam eleifend massa, id lobortis tellus sem sed libero. Aenean tristique ultrices felis, placerat sollicitudin augue lobortis ac.</p>
+                        </div>
+                    </Col>
+                    <Col xs={12} sm={6} md={3} d-flex align-items-center>
+                        <div className="text-center">
+                            <h5>Lorem Ipsum</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor, urna viverra facilisis tristique, nisl diam eleifend massa, id lobortis tellus sem sed libero. Aenean tristique ultrices felis, placerat sollicitudin augue lobortis ac.</p>
+                        </div>
+                    </Col>
+                </Row>
             </Container>
         </>
     );
