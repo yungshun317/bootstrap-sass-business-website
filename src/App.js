@@ -332,6 +332,25 @@ export default function App() {
                         </div>
                     </Col>
                 </Row>
+                <Row>
+                    <Col sm={12} md={6}>
+                        <div className="bg-danger" style={{height:"820px"}}></div>
+                    </Col>
+                    <Col sm={12} md={6}>
+                        <div>
+                            <form>
+                                <Row>
+                                    <Col sm={12} md={6}>
+                                        <div>
+                                            <label>NAME:</label>
+                                            <input type="text" placeholder="Enter Your Name" />
+                                        </div>
+                                    </Col>
+                                </Row>
+                            </form>
+                        </div>
+                    </Col>
+                </Row>
             </Container>
         </>
     );
