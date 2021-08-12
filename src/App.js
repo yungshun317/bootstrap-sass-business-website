@@ -365,7 +365,7 @@ export default function App() {
                                     <Col md={12}>
                                         <div>
                                             <label style={fontStyle}>CONTENT</label>
-                                            <textarea name="comment" style={{width:"100%",marginBlockEnd:"16px",padding:"12px"}}>Enter Content Here</textarea>
+                                            <textarea name="comment" style={{width:"100%",marginBlockEnd:"16px",padding:"12px",borderRadius:"6px"}}>Enter Content Here</textarea>
                                         </div>
                                     </Col>
                                 </Row>
