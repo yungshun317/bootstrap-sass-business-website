@@ -28,7 +28,7 @@ export default function App() {
     const hrStyle = {
         borderStyle: "solid",
         borderWidth: "1px",
-        borderColor: "#HBHBHD",
+        borderColor: "#FBFBFD",
         marginBlockStart: "16px",
         marginBlockEnd: "16px"
     }
@@ -229,7 +229,20 @@ export default function App() {
                     </Col>
                 </Row>
             </Container>
-            {/* [10] Pricing Table */}
+            {/* [10] Statistics */}
+            <div>
+                <Container>
+                    <Row>
+                        <Col sm={{span:6, offset:0}} md={{span:2, offset:2}}>
+                            <div className="text-center" style={{height:"32px",backgroundColor:"#FBFBFD"}}>Why</div>
+                        </Col>
+                    </Row>
+                </Container>
+            </div>
+            {/* [11] Clients & Partners */}
+            <Container>
+            </Container>
+            {/* [12] Pricing Table */}
             <Container>
                 <Row style={rowStyle}>
                     <Col lg={12}>
@@ -241,7 +254,7 @@ export default function App() {
                 </Row>
                 <Row>
                     <Col sm={12} md={4}>
-                        <div className="text-center" style={{borderStyle:"solid",borderWidth:"1px",borderColor:"#HBHBHD"}}>
+                        <div className="text-center" style={{borderStyle:"solid",borderWidth:"1px",borderColor:"#FBFBFD"}}>
                             <h2 style={fontStyle}>Lorem Ipsum</h2>
                             <h1 style={fontStyle}>Lorem Ipsum</h1>
                             <p style={fontStyle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus quis massa vel tempus. Nunc laoreet dolor sit amet massa pulvinar, ac tempor nibh pretium. Quisque interdum dolor eu varius varius.</p>
@@ -261,7 +274,7 @@ export default function App() {
                         </div>
                     </Col>
                     <Col sm={12} md={4}>
-                        <div className="text-center" style={{borderStyle:"solid",borderWidth:"1px",borderColor:"#HBHBHD"}}>
+                        <div className="text-center" style={{borderStyle:"solid",borderWidth:"1px",borderColor:"#FBFBFD"}}>
                             <h2 style={fontStyle}>Lorem Ipsum</h2>
                             <h1 style={fontStyle}>Lorem Ipsum</h1>
                             <p style={fontStyle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus quis massa vel tempus. Nunc laoreet dolor sit amet massa pulvinar, ac tempor nibh pretium. Quisque interdum dolor eu varius varius.</p>
@@ -281,7 +294,7 @@ export default function App() {
                         </div>
                     </Col>
                     <Col sm={12} md={4}>
-                        <div className="text-center" style={{borderStyle:"solid",borderWidth:"1px",borderColor:"#HBHBHD"}}>
+                        <div className="text-center" style={{borderStyle:"solid",borderWidth:"1px",borderColor:"#FBFBFD"}}>
                             <h2 style={fontStyle}>Lorem Ipsum</h2>
                             <h1 style={fontStyle}>Lorem Ipsum</h1>
                             <p style={fontStyle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus quis massa vel tempus. Nunc laoreet dolor sit amet massa pulvinar, ac tempor nibh pretium. Quisque interdum dolor eu varius varius.</p>
@@ -302,7 +315,7 @@ export default function App() {
                     </Col>
                 </Row>
             </Container>
-            {/* [11] Form */}
+            {/* [13] Form */}
             <Container>
                 <Row style={rowStyle}>
                     <Col lg={12}>
