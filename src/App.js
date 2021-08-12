@@ -342,13 +342,13 @@ export default function App() {
                                 <Row>
                                     <Col sm={12} md={6}>
                                         <div>
-                                            <label>NAME:</label>
+                                            <label style={fontStyle}>NAME</label>
                                             <input type="text" className="form-control" placeholder="Enter Your Name" />
                                         </div>
                                     </Col>
                                     <Col sm={12} md={6}>
                                         <div>
-                                            <label>PHONE:</label>
+                                            <label style={fontStyle}>PHONE</label>
                                             <input type="text" className="form-control" placeholder="Enter Your Phone Number" />
                                         </div>
                                     </Col>
@@ -356,7 +356,7 @@ export default function App() {
                                 <Row>
                                     <Col md={12}>
                                         <div>
-                                            <label>TITLE:</label>
+                                            <label style={fontStyle}>EMAIL</label>
                                             <input type="email" className="form-control" placeholder="Enter Your Mail" />
                                         </div>
                                     </Col>
@@ -364,8 +364,8 @@ export default function App() {
                                 <Row>
                                     <Col md={12}>
                                         <div>
-                                            <label>CONTENT:</label>
-                                            <textarea name="comment">Enter Content Here</textarea>
+                                            <label style={fontStyle}>CONTENT</label>
+                                            <textarea name="comment" style={{width:"100%",marginBlockEnd:"16px",padding:"12px"}}>Enter Content Here</textarea>
                                         </div>
                                     </Col>
                                 </Row>
