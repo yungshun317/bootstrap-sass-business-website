@@ -343,7 +343,29 @@ export default function App() {
                                     <Col sm={12} md={6}>
                                         <div>
                                             <label>NAME:</label>
-                                            <input type="text" placeholder="Enter Your Name" />
+                                            <input type="text" className="form-control" placeholder="Enter Your Name" />
+                                        </div>
+                                    </Col>
+                                    <Col sm={12} md={6}>
+                                        <div>
+                                            <label>PHONE:</label>
+                                            <input type="text" className="form-control" placeholder="Enter Your Phone Number" />
+                                        </div>
+                                    </Col>
+                                </Row>
+                                <Row>
+                                    <Col md={12}>
+                                        <div>
+                                            <label>TITLE:</label>
+                                            <input type="email" className="form-control" placeholder="Enter Your Mail" />
+                                        </div>
+                                    </Col>
+                                </Row>
+                                <Row>
+                                    <Col md={12}>
+                                        <div>
+                                            <label>CONTENT:</label>
+                                            <textarea name="comment">Enter Content Here</textarea>
                                         </div>
                                     </Col>
                                 </Row>
