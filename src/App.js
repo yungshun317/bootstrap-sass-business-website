@@ -38,10 +38,9 @@ export default function App() {
     };
 
     const iconStyle = {
-        display: "inline-block",
         marginBlockStart: "16px",
         marginBlockEnd: "16px"
-    }
+    };
 
     const brandingImages = [
         {
@@ -266,17 +265,87 @@ export default function App() {
             </Container>
             {/* [11] Clients & Partners */}
             <Container>
-                <Row style={rowStyle}>
-                    <Col md={12}>
-                        <div className="d-flex justify-content-center">
-                            <img src="https://picsum.photos/64/64" style={{iconStyle}} />
-                            <img src="https://picsum.photos/64/64" style={{iconStyle}} />
-                            <img src="https://picsum.photos/64/64" style={{iconStyle}} />
-                            <img src="https://picsum.photos/64/64" style={{iconStyle}} />
-                            <img src="https://picsum.photos/64/64" style={{iconStyle}} />
-                            <img src="https://picsum.photos/64/64" style={{iconStyle}} />
-                            <img src="https://picsum.photos/64/64" style={{iconStyle}} />
-                            <img src="https://picsum.photos/64/64" style={{iconStyle}} />
+                <Row className="d-flex justify-content-center">
+                    <Col xs={3} md={1}>
+                        <div style={iconStyle}>
+                            <img src="https://picsum.photos/64/64" />
+                        </div>
+                    </Col>
+                    <Col xs={3} md={1}>
+                        <div style={iconStyle}>
+                            <img src="https://picsum.photos/64/64" />
+                        </div>
+                    </Col>
+                    <Col xs={3} md={1}>
+                        <div style={iconStyle}>
+                            <img src="https://picsum.photos/64/64" />
+                        </div>
+                    </Col>
+                    <Col xs={3} md={1}>
+                        <div style={iconStyle}>
+                            <img src="https://picsum.photos/64/64" />
+                        </div>
+                    </Col>
+                    <Col xs={3} md={1}>
+                        <div style={iconStyle}>
+                            <img src="https://picsum.photos/64/64" />
+                        </div>
+                    </Col>
+                    <Col xs={3} md={1}>
+                        <div style={iconStyle}>
+                            <img src="https://picsum.photos/64/64" />
+                        </div>
+                    </Col>
+                    <Col xs={3} md={1}>
+                        <div style={iconStyle}>
+                            <img src="https://picsum.photos/64/64" />
+                        </div>
+                    </Col>
+                    <Col xs={3} md={1}>
+                        <div style={iconStyle}>
+                            <img src="https://picsum.photos/64/64" />
+                        </div>
+                    </Col>
+                </Row>
+                <Row className="d-flex justify-content-center">
+                    <Col xs={3} md={1}>
+                        <div style={iconStyle}>
+                            <img src="https://picsum.photos/64/64" />
+                        </div>
+                    </Col>
+                    <Col xs={3} md={1}>
+                        <div style={iconStyle}>
+                            <img src="https://picsum.photos/64/64" />
+                        </div>
+                    </Col>
+                    <Col xs={3} md={1}>
+                        <div style={iconStyle}>
+                            <img src="https://picsum.photos/64/64" />
+                        </div>
+                    </Col>
+                    <Col xs={3} md={1}>
+                        <div style={iconStyle}>
+                            <img src="https://picsum.photos/64/64" />
+                        </div>
+                    </Col>
+                    <Col xs={3} md={1}>
+                        <div style={iconStyle}>
+                            <img src="https://picsum.photos/64/64" />
+                        </div>
+                    </Col>
+                    <Col xs={3} md={1}>
+                        <div style={iconStyle}>
+                            <img src="https://picsum.photos/64/64" />
+                        </div>
+                    </Col>
+                    <Col xs={3} md={1}>
+                        <div style={iconStyle}>
+                            <img src="https://picsum.photos/64/64" />
+                        </div>
+                    </Col>
+                    <Col xs={3} md={1}>
+                        <div style={iconStyle}>
+                            <img src="https://picsum.photos/64/64" />
                         </div>
                     </Col>
                 </Row>
