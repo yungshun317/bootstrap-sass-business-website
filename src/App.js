@@ -37,6 +37,12 @@ export default function App() {
         width: "100%"
     };
 
+    const iconStyle = {
+        display: "inline-block",
+        marginBlockStart: "16px",
+        marginBlockEnd: "16px"
+    }
+
     const brandingImages = [
         {
             original: typographicSystemImg,
@@ -259,24 +265,23 @@ export default function App() {
                 </Row>
             </Container>
             {/* [11] Clients & Partners */}
-            <div style={{height:"400px",backgroundColor:"#FBFBFD"}}>
-                <Container>
-                    <Row style={rowStyle}>
-                        <Col md={12}>
-                            <div>
-                                <img src="https://picsum.photos/64/64" style={{fontStyle}} />
-                                <img src="https://picsum.photos/64/64" style={{fontStyle}} />
-                                <img src="https://picsum.photos/64/64" style={{fontStyle}} />
-                                <img src="https://picsum.photos/64/64" style={{fontStyle}} />
-                                <img src="https://picsum.photos/64/64" style={{fontStyle}} />
-                                <img src="https://picsum.photos/64/64" style={{fontStyle}} />
-                                <img src="https://picsum.photos/64/64" style={{fontStyle}} />
-                                <img src="https://picsum.photos/64/64" style={{fontStyle}} />
-                            </div>
-                        </Col>
-                    </Row>
-                </Container>
-            </div>
+            <Container>
+                <Row style={rowStyle}>
+                    <Col md={12}>
+                        <div className="d-flex justify-content-center">
+                            <img src="https://picsum.photos/64/64" style={{iconStyle}} />
+                            <img src="https://picsum.photos/64/64" style={{iconStyle}} />
+                            <img src="https://picsum.photos/64/64" style={{iconStyle}} />
+                            <img src="https://picsum.photos/64/64" style={{iconStyle}} />
+                            <img src="https://picsum.photos/64/64" style={{iconStyle}} />
+                            <img src="https://picsum.photos/64/64" style={{iconStyle}} />
+                            <img src="https://picsum.photos/64/64" style={{iconStyle}} />
+                            <img src="https://picsum.photos/64/64" style={{iconStyle}} />
+                        </div>
+                    </Col>
+                </Row>
+            </Container>
+
             {/* [12] Pricing Table */}
             <Container>
                 <Row style={rowStyle}>
