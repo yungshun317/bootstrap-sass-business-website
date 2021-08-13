@@ -230,39 +230,53 @@ export default function App() {
                 </Row>
             </Container>
             {/* [10] Statistics */}
-            <div>
+            <Container>
+                <Row style={rowStyle}>
+                    <Col sm={{span:6, offset:0}} md={{span:2, offset:2}}>
+                        <div className="text-center">
+                            <h4 style={{fontStyle}}>100</h4>
+                            <h6 style={{fontStyle}}>PROJECTS</h6>
+                        </div>
+                    </Col>
+                    <Col sm={6} md={2}>
+                        <div className="text-center">
+                            <h4 style={{fontStyle}}>100</h4>
+                            <h6 style={{fontStyle}}>PROJECTS</h6>
+                        </div>
+                    </Col>
+                    <Col sm={6} md={2}>
+                        <div className="text-center">
+                            <h4 style={{fontStyle}}>100</h4>
+                            <h6 style={{fontStyle}}>PROJECTS</h6>
+                        </div>
+                    </Col>
+                    <Col sm={6} md={2}>
+                        <div className="text-center">
+                            <h4 style={{fontStyle}}>100</h4>
+                            <h6 style={{fontStyle}}>PROJECTS</h6>
+                        </div>
+                    </Col>
+                </Row>
+            </Container>
+            {/* [11] Clients & Partners */}
+            <div style={{height:"400px",backgroundColor:"#FBFBFD"}}>
                 <Container>
-                    <Row>
-                        <Col sm={{span:6, offset:0}} md={{span:2, offset:2}}>
-                            <div className="text-center" style={{height:"32px",backgroundColor:"#FBFBFD"}}>
-                                <h4>100</h4>
-                                <h6>PROJECTS</h6>
-                            </div>
-                        </Col>
-                        <Col sm={6} md={2}>
-                            <div className="text-center" style={{height:"32px",backgroundColor:"#FBFBFD"}}>
-                                <h4>100</h4>
-                                <h6>PROJECTS</h6>
-                            </div>
-                        </Col>
-                        <Col sm={6} md={2}>
-                            <div className="text-center" style={{height:"32px",backgroundColor:"#FBFBFD"}}>
-                                <h4>100</h4>
-                                <h6>PROJECTS</h6>
-                            </div>
-                        </Col>
-                        <Col sm={6} md={2}>
-                            <div className="text-center" style={{height:"32px",backgroundColor:"#FBFBFD"}}>
-                                <h4>100</h4>
-                                <h6>PROJECTS</h6>
+                    <Row style={rowStyle}>
+                        <Col md={12}>
+                            <div>
+                                <img src="https://picsum.photos/64/64" style={{fontStyle}} />
+                                <img src="https://picsum.photos/64/64" style={{fontStyle}} />
+                                <img src="https://picsum.photos/64/64" style={{fontStyle}} />
+                                <img src="https://picsum.photos/64/64" style={{fontStyle}} />
+                                <img src="https://picsum.photos/64/64" style={{fontStyle}} />
+                                <img src="https://picsum.photos/64/64" style={{fontStyle}} />
+                                <img src="https://picsum.photos/64/64" style={{fontStyle}} />
+                                <img src="https://picsum.photos/64/64" style={{fontStyle}} />
                             </div>
                         </Col>
                     </Row>
                 </Container>
             </div>
-            {/* [11] Clients & Partners */}
-            <Container>
-            </Container>
             {/* [12] Pricing Table */}
             <Container>
                 <Row style={rowStyle}>
