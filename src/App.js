@@ -234,7 +234,28 @@ export default function App() {
                 <Container>
                     <Row>
                         <Col sm={{span:6, offset:0}} md={{span:2, offset:2}}>
-                            <div className="text-center" style={{height:"32px",backgroundColor:"#FBFBFD"}}>Why</div>
+                            <div className="text-center" style={{height:"32px",backgroundColor:"#FBFBFD"}}>
+                                <h4>100</h4>
+                                <h6>PROJECTS</h6>
+                            </div>
+                        </Col>
+                        <Col sm={6} md={2}>
+                            <div className="text-center" style={{height:"32px",backgroundColor:"#FBFBFD"}}>
+                                <h4>100</h4>
+                                <h6>PROJECTS</h6>
+                            </div>
+                        </Col>
+                        <Col sm={6} md={2}>
+                            <div className="text-center" style={{height:"32px",backgroundColor:"#FBFBFD"}}>
+                                <h4>100</h4>
+                                <h6>PROJECTS</h6>
+                            </div>
+                        </Col>
+                        <Col sm={6} md={2}>
+                            <div className="text-center" style={{height:"32px",backgroundColor:"#FBFBFD"}}>
+                                <h4>100</h4>
+                                <h6>PROJECTS</h6>
+                            </div>
                         </Col>
                     </Row>
                 </Container>
