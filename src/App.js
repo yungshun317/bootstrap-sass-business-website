@@ -254,7 +254,7 @@ export default function App() {
                 </Row>
                 <Row>
                     <Col sm={12} md={4}>
-                        <div className="text-center" style={{borderStyle:"solid",borderWidth:"1px",borderColor:"#FBFBFD"}}>
+                        <div className="text-center" style={{borderStyle:"solid",borderWidth:"1px",borderColor:"#FBFBFD",borderRadius:"6px"}}>
                             <h2 style={fontStyle}>Lorem Ipsum</h2>
                             <h1 style={fontStyle}>Lorem Ipsum</h1>
                             <p style={fontStyle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus quis massa vel tempus. Nunc laoreet dolor sit amet massa pulvinar, ac tempor nibh pretium. Quisque interdum dolor eu varius varius.</p>
@@ -274,7 +274,7 @@ export default function App() {
                         </div>
                     </Col>
                     <Col sm={12} md={4}>
-                        <div className="text-center" style={{borderStyle:"solid",borderWidth:"1px",borderColor:"#FBFBFD"}}>
+                        <div className="text-center" style={{borderStyle:"solid",borderWidth:"1px",borderColor:"#FBFBFD",borderRadius:"6px"}}>
                             <h2 style={fontStyle}>Lorem Ipsum</h2>
                             <h1 style={fontStyle}>Lorem Ipsum</h1>
                             <p style={fontStyle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus quis massa vel tempus. Nunc laoreet dolor sit amet massa pulvinar, ac tempor nibh pretium. Quisque interdum dolor eu varius varius.</p>
@@ -294,7 +294,7 @@ export default function App() {
                         </div>
                     </Col>
                     <Col sm={12} md={4}>
-                        <div className="text-center" style={{borderStyle:"solid",borderWidth:"1px",borderColor:"#FBFBFD"}}>
+                        <div className="text-center" style={{borderStyle:"solid",borderWidth:"1px",borderColor:"#FBFBFD",borderRadius:"6px"}}>
                             <h2 style={fontStyle}>Lorem Ipsum</h2>
                             <h1 style={fontStyle}>Lorem Ipsum</h1>
                             <p style={fontStyle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus quis massa vel tempus. Nunc laoreet dolor sit amet massa pulvinar, ac tempor nibh pretium. Quisque interdum dolor eu varius varius.</p>
