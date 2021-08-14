@@ -13,6 +13,7 @@ import colorSystemImg from "../public/assets/ColorSystem.png";
 import dashboardImg from "../public/assets/GrafanaDashboard.png";
 import wireframeImg from "../public/assets/Wireframe&Sitemap.png";
 import model from "../public/assets/Model.glb";
+import bgImg from "../public/assets/bg-combined.jpg";
 
 export default function App() {
     const rowStyle = {
@@ -35,11 +36,6 @@ export default function App() {
 
     const imgStyle = {
         width: "100%"
-    };
-
-    const iconStyle = {
-        marginBlockStart: "16px",
-        marginBlockEnd: "16px"
     };
 
     const brandingImages = [
@@ -66,10 +62,12 @@ export default function App() {
 
     return (
         <>
+            <div style={{backgroundImage:"url("+bgImg+")",width:"100%"}}>
             {/* [1] Hero Video */}
-            <div className="bg-light" style={{height:"768px"}}>
+            <div className="bg-light" style={{height:"900px"}}>
             </div>
             {/* [2] About */}
+
             <Container>
                 <Row style={rowStyle}>
                     <Col lg={12}>
@@ -87,6 +85,7 @@ export default function App() {
                     </Col>
                 </Row>
             </Container>
+
             {/* [3] Service - Development Section 1 */}
             <Container>
                 <Row style={rowStyle}>
@@ -239,26 +238,26 @@ export default function App() {
                 <Row style={rowStyle}>
                     <Col sm={{span:6, offset:0}} md={{span:2, offset:2}}>
                         <div className="text-center">
-                            <h4 style={{fontStyle}}>100</h4>
-                            <h6 style={{fontStyle}}>PROJECTS</h6>
+                            <h4 style={fontStyle}>100</h4>
+                            <h6 style={fontStyle}>PROJECTS</h6>
                         </div>
                     </Col>
                     <Col sm={6} md={2}>
                         <div className="text-center">
-                            <h4 style={{fontStyle}}>100</h4>
-                            <h6 style={{fontStyle}}>PROJECTS</h6>
+                            <h4 style={fontStyle}>100</h4>
+                            <h6 style={fontStyle}>PROJECTS</h6>
                         </div>
                     </Col>
                     <Col sm={6} md={2}>
                         <div className="text-center">
-                            <h4 style={{fontStyle}}>100</h4>
-                            <h6 style={{fontStyle}}>PROJECTS</h6>
+                            <h4 style={fontStyle}>100</h4>
+                            <h6 style={fontStyle}>PROJECTS</h6>
                         </div>
                     </Col>
                     <Col sm={6} md={2}>
                         <div className="text-center">
-                            <h4 style={{fontStyle}}>100</h4>
-                            <h6 style={{fontStyle}}>PROJECTS</h6>
+                            <h4 style={fontStyle}>100</h4>
+                            <h6 style={fontStyle}>PROJECTS</h6>
                         </div>
                     </Col>
                 </Row>
@@ -267,84 +266,84 @@ export default function App() {
             <Container>
                 <Row className="d-flex justify-content-center">
                     <Col xs={3} md={1}>
-                        <div style={iconStyle}>
+                        <div style={fontStyle}>
                             <img src="https://picsum.photos/64/64" />
                         </div>
                     </Col>
                     <Col xs={3} md={1}>
-                        <div style={iconStyle}>
+                        <div style={fontStyle}>
                             <img src="https://picsum.photos/64/64" />
                         </div>
                     </Col>
                     <Col xs={3} md={1}>
-                        <div style={iconStyle}>
+                        <div style={fontStyle}>
                             <img src="https://picsum.photos/64/64" />
                         </div>
                     </Col>
                     <Col xs={3} md={1}>
-                        <div style={iconStyle}>
+                        <div style={fontStyle}>
                             <img src="https://picsum.photos/64/64" />
                         </div>
                     </Col>
                     <Col xs={3} md={1}>
-                        <div style={iconStyle}>
+                        <div style={fontStyle}>
                             <img src="https://picsum.photos/64/64" />
                         </div>
                     </Col>
                     <Col xs={3} md={1}>
-                        <div style={iconStyle}>
+                        <div style={fontStyle}>
                             <img src="https://picsum.photos/64/64" />
                         </div>
                     </Col>
                     <Col xs={3} md={1}>
-                        <div style={iconStyle}>
+                        <div style={fontStyle}>
                             <img src="https://picsum.photos/64/64" />
                         </div>
                     </Col>
                     <Col xs={3} md={1}>
-                        <div style={iconStyle}>
+                        <div style={fontStyle}>
                             <img src="https://picsum.photos/64/64" />
                         </div>
                     </Col>
                 </Row>
                 <Row className="d-flex justify-content-center">
                     <Col xs={3} md={1}>
-                        <div style={iconStyle}>
+                        <div style={fontStyle}>
                             <img src="https://picsum.photos/64/64" />
                         </div>
                     </Col>
                     <Col xs={3} md={1}>
-                        <div style={iconStyle}>
+                        <div style={fontStyle}>
                             <img src="https://picsum.photos/64/64" />
                         </div>
                     </Col>
                     <Col xs={3} md={1}>
-                        <div style={iconStyle}>
+                        <div style={fontStyle}>
                             <img src="https://picsum.photos/64/64" />
                         </div>
                     </Col>
                     <Col xs={3} md={1}>
-                        <div style={iconStyle}>
+                        <div style={fontStyle}>
                             <img src="https://picsum.photos/64/64" />
                         </div>
                     </Col>
                     <Col xs={3} md={1}>
-                        <div style={iconStyle}>
+                        <div style={fontStyle}>
                             <img src="https://picsum.photos/64/64" />
                         </div>
                     </Col>
                     <Col xs={3} md={1}>
-                        <div style={iconStyle}>
+                        <div style={fontStyle}>
                             <img src="https://picsum.photos/64/64" />
                         </div>
                     </Col>
                     <Col xs={3} md={1}>
-                        <div style={iconStyle}>
+                        <div style={fontStyle}>
                             <img src="https://picsum.photos/64/64" />
                         </div>
                     </Col>
                     <Col xs={3} md={1}>
-                        <div style={iconStyle}>
+                        <div style={fontStyle}>
                             <img src="https://picsum.photos/64/64" />
                         </div>
                     </Col>
@@ -496,6 +495,7 @@ export default function App() {
                     </Col>
                 </Row>
             </Container>
+            </div>
         </>
     );
 }
