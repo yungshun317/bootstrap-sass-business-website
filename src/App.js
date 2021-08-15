@@ -13,7 +13,6 @@ import colorSystemImg from "../public/assets/ColorSystem.png";
 import dashboardImg from "../public/assets/GrafanaDashboard.png";
 import wireframeImg from "../public/assets/Wireframe&Sitemap.png";
 import model from "../public/assets/Model.glb";
-import bgImg from "../public/assets/bg-combined.jpg";
 
 export default function App() {
     const rowStyle = {
@@ -62,7 +61,6 @@ export default function App() {
 
     return (
         <>
-            <div style={{backgroundImage:"url("+bgImg+")",width:"100%"}}>
             {/* [1] Hero Video */}
             <div className="bg-light" style={{height:"900px"}}>
             </div>
@@ -436,20 +434,21 @@ export default function App() {
                 <Row>
                     <Col sm={12} md={6} d-flex align-items-center>
                         <div className="text-center">
-                            <h5>Lorem Ipsum</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor, urna viverra facilisis tristique, nisl diam eleifend massa, id lobortis tellus sem sed libero. Aenean tristique ultrices felis, placerat sollicitudin augue lobortis ac.</p>
+                            <h5>Our Address</h5>
+                            <p>2F, No. 72, Sec. 1, Zhongxiao West Rd., Taipei City, Taiwan, 10041</p>
                         </div>
                     </Col>
                     <Col xs={12} sm={6} md={3} d-flex align-items-center>
                         <div className="text-center">
-                            <h5>Lorem Ipsum</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor, urna viverra facilisis tristique, nisl diam eleifend massa, id lobortis tellus sem sed libero. Aenean tristique ultrices felis, placerat sollicitudin augue lobortis ac.</p>
+                            <></>
+                            <h5>Email Us</h5>
+                            <p>seraph317@gmail.com</p>
                         </div>
                     </Col>
                     <Col xs={12} sm={6} md={3} d-flex align-items-center>
                         <div className="text-center">
-                            <h5>Lorem Ipsum</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor, urna viverra facilisis tristique, nisl diam eleifend massa, id lobortis tellus sem sed libero. Aenean tristique ultrices felis, placerat sollicitudin augue lobortis ac.</p>
+                            <h5>Call Us</h5>
+                            <p>0900 615 379</p>
                         </div>
                     </Col>
                 </Row>
@@ -495,7 +494,6 @@ export default function App() {
                     </Col>
                 </Row>
             </Container>
-            </div>
         </>
     );
 }
