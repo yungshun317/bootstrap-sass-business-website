@@ -13,6 +13,9 @@ import colorSystemImg from "../public/assets/ColorSystem.png";
 import dashboardImg from "../public/assets/GrafanaDashboard.png";
 import wireframeImg from "../public/assets/Wireframe&Sitemap.png";
 import model from "../public/assets/Model.glb";
+import addressIcon from "../public/assets/asset-122.svg";
+import emailIcon from "../public/assets/asset-111.svg";
+import phoneIcon from "../public/assets/asset-112.svg";
 
 export default function App() {
     const rowStyle = {
@@ -434,19 +437,21 @@ export default function App() {
                 <Row>
                     <Col sm={12} md={6} d-flex align-items-center>
                         <div className="text-center">
+                            <img src={addressIcon} />
                             <h5>Our Address</h5>
                             <p>2F, No. 72, Sec. 1, Zhongxiao West Rd., Taipei City, Taiwan, 10041</p>
                         </div>
                     </Col>
                     <Col xs={12} sm={6} md={3} d-flex align-items-center>
                         <div className="text-center">
-                            <></>
+                            <img src={emailIcon} />
                             <h5>Email Us</h5>
                             <p>seraph317@gmail.com</p>
                         </div>
                     </Col>
                     <Col xs={12} sm={6} md={3} d-flex align-items-center>
                         <div className="text-center">
+                            <img src={phoneIcon} />
                             <h5>Call Us</h5>
                             <p>0900 615 379</p>
                         </div>
