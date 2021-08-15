@@ -34,10 +34,16 @@ export default function App() {
         borderColor: "#FBFBFD",
         marginBlockStart: "16px",
         marginBlockEnd: "16px"
-    }
+    };
 
     const imgStyle = {
         width: "100%"
+    };
+
+    const iconStyle = {
+        height: "64px",
+        marginBlockStart: "16px",
+        marginBlockEnd: "16px"
     };
 
     const brandingImages = [
@@ -437,21 +443,21 @@ export default function App() {
                 <Row>
                     <Col sm={12} md={6} d-flex align-items-center>
                         <div className="text-center">
-                            <img src={addressIcon} />
+                            <img src={addressIcon} style={iconStyle} />
                             <h5>Our Address</h5>
                             <p>2F, No. 72, Sec. 1, Zhongxiao West Rd., Taipei City, Taiwan, 10041</p>
                         </div>
                     </Col>
                     <Col xs={12} sm={6} md={3} d-flex align-items-center>
                         <div className="text-center">
-                            <img src={emailIcon} />
+                            <img src={emailIcon} style={iconStyle} />
                             <h5>Email Us</h5>
                             <p>seraph317@gmail.com</p>
                         </div>
                     </Col>
                     <Col xs={12} sm={6} md={3} d-flex align-items-center>
                         <div className="text-center">
-                            <img src={phoneIcon} />
+                            <img src={phoneIcon} style={iconStyle} />
                             <h5>Call Us</h5>
                             <p>0900 615 379</p>
                         </div>
