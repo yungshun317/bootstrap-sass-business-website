@@ -463,7 +463,7 @@ export default function App() {
                         </div>
                     </Col>
                 </Row>
-                <Row>
+                <Row style={{marginTop:"20px"}}>
                     <Col sm={12} md={6}>
                         <div className="bg-danger" style={{height:"820px"}}></div>
                     </Col>
