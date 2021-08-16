@@ -466,10 +466,10 @@ export default function App() {
                 </Row>
                 <Row style={{marginTop:"20px"}}>
                     <Col sm={12} md={6}>
-                        <div className="bg-danger" style={{height:"820px"}}>
+                        <div className="bg-danger" style={{height:"410px"}}>
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.6233994319273!2d121.51182041483307!3d25.046851543930458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a90d3282310d%3A0xc2b9c3de555ad07f!2sNo.%2072%2C%20Section%201%2C%20Zhongxiao%20W%20Rd%2C%20Zhongzheng%20District%2C%20Taipei%20City%2C%20100!5e0!3m2!1sen!2stw!4v1629616436613!5m2!1sen!2stw"
-                                width="600" height="450" style={{border:"0"}} allowFullScreen="" loading="lazy"></iframe>
+                                width="100%" height="100%" style={{border:"0"}} allowFullScreen="" loading="lazy"></iframe>
                         </div>
                     </Col>
                     <Col sm={12} md={6}>
