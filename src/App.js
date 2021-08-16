@@ -2,7 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ImageGallery from "react-image-gallery";
 import "@google/model-viewer";
-import Navbar from "react-bootstrap/Navbar"
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
 
 import aboutImg from "../public/assets/asset-3.svg";
 import professionalImg from "../public/assets/asset-2.svg";
@@ -76,6 +77,10 @@ export default function App() {
                 <Navbar.Brand href="#home">Business Website</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="ml-auto">
+                        <Nav.Link href="#home">Home</Nav.Link>
+                        <Nav.Link href="#link">Link</Nav.Link>
+                    </Nav>
                 </Navbar.Collapse>
             </Navbar>
 
