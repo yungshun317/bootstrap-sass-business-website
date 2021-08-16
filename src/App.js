@@ -75,19 +75,24 @@ export default function App() {
     return (
         <>
             <Navbar>
-                <Navbar.Brand href="#home">Business Website</Navbar.Brand>
+                <Navbar.Brand href="#home"><h6 style={{color:"#FBFBFD"}}>Business Website</h6></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#link">Link</Nav.Link>
+                        <Nav.Link href="#home" style={{color:"#FBFBFD"}}><h6>HOME</h6></Nav.Link>
+                        <Nav.Link href="#services" style={{color:"#FBFBFD"}}><h6>SERVICES</h6></Nav.Link>
+                        <Nav.Link href="#team" style={{color:"#FBFBFD"}}><h6>TEAM</h6></Nav.Link>
+                        <Nav.Link href="#contact" style={{color:"#FBFBFD"}}><h6>CONTACT</h6></Nav.Link>
+                        <Nav.Link href="#phone" style={{color:"#FBFBFD"}}><h6>0900 615 379</h6></Nav.Link>
+                        {/*
                         <NavDropdown title="Dropdown" id="basic-navbar-dropdown">
-                            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.1"><h6 style={{color:"#FBFBFD"}}>Action</h6></NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.2"><h6 style={{color:"#FBFBFD"}}>Another action</h6></NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.3"><h6 style={{color:"#FBFBFD"}}>Something</h6></NavDropdown.Item>
                             <NavDropdown.Divider />
-                            <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.4"><h6 style={{color:"#FBFBFD"}}>Separated link</h6></NavDropdown.Item>
                         </NavDropdown>
+                        */}
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
