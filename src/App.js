@@ -536,27 +536,29 @@ export default function App() {
                     </Col>
                 </Row>
             </Container>
-            <footer>
-                <container>
-                    <Row>
+            <div>
+                <Container>
+                    <Row style={rowStyle}>
                         <Col sm={12} md={4}>
                             <div>
-
+                                <h4>ChouQin Info Co.</h4>
+                                <p>Lorem Ipsum</p>
                             </div>
                         </Col>
                         <Col sm={12} md={4}>
                             <div>
-
+                                <h5>Our Services</h5>
+                                <p>Lorem Ipsum</p>
                             </div>
                         </Col>
                         <Col sm={12} md={4}>
                             <div>
-
+                                <p>©Copyright <b>ChouQin Info Co.</b> All Rights Reserved</p>
                             </div>
                         </Col>
                     </Row>
-                </container>
-            </footer>
+                </Container>
+            </div>
         </>
     );
 }
