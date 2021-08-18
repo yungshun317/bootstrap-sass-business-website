@@ -536,6 +536,27 @@ export default function App() {
                     </Col>
                 </Row>
             </Container>
+            <footer>
+                <container>
+                    <Row>
+                        <Col sm={12} md={4}>
+                            <div>
+
+                            </div>
+                        </Col>
+                        <Col sm={12} md={4}>
+                            <div>
+
+                            </div>
+                        </Col>
+                        <Col sm={12} md={4}>
+                            <div>
+
+                            </div>
+                        </Col>
+                    </Row>
+                </container>
+            </footer>
         </>
     );
 }
