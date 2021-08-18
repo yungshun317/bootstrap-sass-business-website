@@ -541,17 +541,20 @@ export default function App() {
                     <Row style={rowStyle}>
                         <Col sm={12} md={4}>
                             <div>
-                                <h4>ChouQin Info Co.</h4>
-                                <p>Lorem Ipsum</p>
+                                <h4 style={fontStyle}>ChouQin Info Co.</h4>
+                                <p style={fontStyle}>Lorem Ipsum</p>
                             </div>
                         </Col>
                         <Col sm={12} md={4}>
                             <div>
-                                <h5>Our Services</h5>
-                                <p>Lorem Ipsum</p>
+                                <h5 style={fontStyle}>Our Services</h5>
+                                <p style={fontStyle}>Web Development</p>
+                                <p style={fontStyle}>Big Data</p>
+                                <p style={fontStyle}>Cloud Computing</p>
+                                <p style={fontStyle}>Artificial Intelligence</p>
                             </div>
                         </Col>
-                        <Col sm={12} md={4}>
+                        <Col sm={12} md={4} className="d-flex align-items-end">
                             <div>
                                 <p>©Copyright <b>ChouQin Info Co.</b> All Rights Reserved</p>
                             </div>
