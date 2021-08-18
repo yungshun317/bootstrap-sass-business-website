@@ -536,9 +536,9 @@ export default function App() {
                     </Col>
                 </Row>
             </Container>
-            <div style={{backgroundColor:"#00C6D6"}}>
+            <div style={{backgroundColor:"rgba(112,112,112,0.25)"}}>
                 <Container>
-                    <Row style={{marginTop:"40px",paddingTop:"20px",paddingBottom:"20px"}}>
+                    <Row style={{marginTop:"60px",paddingTop:"40px",paddingBottom:"40px"}}>
                         <Col sm={12} md={4}>
                             <div>
                                 <h4 style={fontStyle}>ChouQin Info Co.</h4>
