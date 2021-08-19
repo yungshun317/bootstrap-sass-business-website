@@ -4,7 +4,6 @@ import ImageGallery from "react-image-gallery";
 import "@google/model-viewer";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import NavDropdown from "react-bootstrap/NavDropdown";
 
 import aboutImg from "../public/assets/asset-3.svg";
 import professionalImg from "../public/assets/asset-2.svg";
@@ -83,7 +82,7 @@ export default function App() {
                         <Nav.Link href="#services" style={{color:"#FBFBFD"}}><h6>SERVICES</h6></Nav.Link>
                         <Nav.Link href="#team" style={{color:"#FBFBFD"}}><h6>TEAM</h6></Nav.Link>
                         <Nav.Link href="#contact" style={{color:"#FBFBFD"}}><h6>CONTACT</h6></Nav.Link>
-                        <Nav.Link href="#phone" style={{color:"#FBFBFD"}}><h6>0900 615 379</h6></Nav.Link>
+                        <Nav.Link href="#phone" style={{color:"#FBFBFD"}}><img src={phoneIcon} style={{display:"inline-block",height:"16px",paddingRight:"8px"}} /><h6 style={{display:"inline-block"}}>0900 615 379</h6></Nav.Link>
                         {/*
                         <NavDropdown title="Dropdown" id="basic-navbar-dropdown">
                             <NavDropdown.Item href="#action/3.1"><h6 style={{color:"#FBFBFD"}}>Action</h6></NavDropdown.Item>
