@@ -74,7 +74,7 @@ export default function App() {
 
     return (
         <>
-            <Navbar>
+            <Navbar style={{position:"sticky",top:"0"}}>
                 <Navbar.Brand href="#home"><h6 style={{color:"#FBFBFD"}}>Business Website</h6></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
