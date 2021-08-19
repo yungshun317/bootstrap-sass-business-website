@@ -78,11 +78,11 @@ export default function App() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
-                        <Nav.Link href="#home" style={{color:"#FBFBFD"}}><h6>HOME</h6></Nav.Link>
-                        <Nav.Link href="#services" style={{color:"#FBFBFD"}}><h6>SERVICES</h6></Nav.Link>
-                        <Nav.Link href="#team" style={{color:"#FBFBFD"}}><h6>TEAM</h6></Nav.Link>
-                        <Nav.Link href="#contact" style={{color:"#FBFBFD"}}><h6>CONTACT</h6></Nav.Link>
-                        <Nav.Link href="#phone" style={{color:"#FBFBFD"}}><img src={phoneIcon} style={{display:"inline-block",height:"16px",paddingRight:"8px"}} /><h6 style={{display:"inline-block"}}>0900 615 379</h6></Nav.Link>
+                        <Nav.Link href="#home" style={{color:"#FBFBFD",marginTop:"3px"}}><h6>HOME</h6></Nav.Link>
+                        <Nav.Link href="#services" style={{color:"#FBFBFD",marginTop:"3px"}}><h6>SERVICES</h6></Nav.Link>
+                        <Nav.Link href="#team" style={{color:"#FBFBFD",marginTop:"3px"}}><h6>TEAM</h6></Nav.Link>
+                        <Nav.Link href="#contact" style={{color:"#FBFBFD",marginTop:"3px"}}><h6>CONTACT</h6></Nav.Link>
+                        <Nav.Link href="#phone" style={{color:"#FBFBFD",marginTop:"1px"}}><img src={phoneIcon} style={{display:"inline-block",height:"16px",paddingRight:"8px"}} /><h6 style={{display:"inline-block"}}>0900 615 379</h6></Nav.Link>
                         {/*
                         <NavDropdown title="Dropdown" id="basic-navbar-dropdown">
                             <NavDropdown.Item href="#action/3.1"><h6 style={{color:"#FBFBFD"}}>Action</h6></NavDropdown.Item>
