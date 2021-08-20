@@ -74,7 +74,7 @@ export default function App() {
 
     return (
         <>
-            <Navbar style={{position:"sticky",top:"0",zIndex:"100"}}>
+            <Navbar collapseOnSelect fixed="top" expand="sm" style={{zIndex:"100"}}>
                 <Navbar.Brand href="#home"><img src={logo} style={{width:"32px"}}/></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
