@@ -15,6 +15,7 @@ import colorSystemImg from "../public/assets/ColorSystem.png";
 import dashboardImg from "../public/assets/GrafanaDashboard.png";
 import wireframeImg from "../public/assets/Wireframe&Sitemap.png";
 import model from "../public/assets/Model.glb";
+import logo from "../public/assets/logo-3.svg";
 import addressIcon from "../public/assets/asset-122.svg";
 import emailIcon from "../public/assets/asset-111.svg";
 import phoneIcon from "../public/assets/asset-112.svg";
@@ -74,7 +75,7 @@ export default function App() {
     return (
         <>
             <Navbar style={{position:"sticky",top:"0",zIndex:"100"}}>
-                <Navbar.Brand href="#home"><h6 style={{color:"#FBFBFD"}}>Business Website</h6></Navbar.Brand>
+                <Navbar.Brand href="#home"><img src={logo} style={{width:"32px"}}/></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
