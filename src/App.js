@@ -544,7 +544,7 @@ export default function App() {
                     </Col>
                 </Row>
             </Container>
-            <div style={{backgroundColor:"rgba(112,112,112,0.25)"}}>
+            <div style={{backgroundColor:"rgba(112,112,112,0.05)"}}>
                 <Container>
                     <Row style={{marginTop:"60px",paddingTop:"40px",paddingBottom:"40px"}}>
                         <Col sm={12} md={4}>
