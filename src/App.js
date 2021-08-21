@@ -8,6 +8,7 @@ import Nav from "react-bootstrap/Nav";
 import aboutImg from "../public/assets/asset-3.svg";
 import aboutSmallImg from "../public/assets/asset-5.svg";
 import professionalImg from "../public/assets/asset-2.svg";
+import professionalSmallImg from "../public/assets/asset-4.svg";
 import progressiveImg from "../public/assets/asset-1.svg";
 import dataDrivenImg from "../public/assets/wordcloud.png";
 import teamImg from "../public/assets/Team.png";
@@ -139,7 +140,8 @@ export default function App() {
                 <Row>
                     <Col lg={12}>
                         <div>
-                            <img src={professionalImg} style={imgStyle} />
+                            <img src={professionalImg} className="volume-chart-large" style={imgStyle} />
+                            <img src={professionalSmallImg} className="volume-chart-small" style={imgStyle} />
                         </div>
                     </Col>
                 </Row>

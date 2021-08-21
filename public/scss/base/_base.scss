@@ -61,11 +61,21 @@ fieldset {
     display: none;
 }
 
+.volume-chart-small {
+    display: none;
+}
+
 @media only screen and (max-width: 960px) {
     .pie-chart-large {
         display: none;
     }
     .pie-chart-small {
+        display: block;
+    }
+    .volume-chart-large {
+        display: none;
+    }
+    .volume-chart-small {
         display: block;
     }
 }
