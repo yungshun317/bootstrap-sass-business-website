@@ -57,8 +57,15 @@ fieldset {
     margin: 0;
 }
 
+.pie-chart-small {
+    display: none;
+}
+
 @media only screen and (max-width: 960px) {
-    .pie-chart {
+    .pie-chart-large {
         display: none;
+    }
+    .pie-chart-small {
+        display: block;
     }
 }

@@ -6,6 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 
 import aboutImg from "../public/assets/asset-3.svg";
+import aboutSmallImg from "../public/assets/asset-5.svg";
 import professionalImg from "../public/assets/asset-2.svg";
 import progressiveImg from "../public/assets/asset-1.svg";
 import dataDrivenImg from "../public/assets/wordcloud.png";
@@ -118,7 +119,8 @@ export default function App() {
                 <Row>
                     <Col lg={12}>
                         <div>
-                            <img src={aboutImg} className="pie-chart" style={imgStyle} />
+                            <img src={aboutImg} className="pie-chart-large" style={imgStyle} />
+                            <img src={aboutSmallImg} className="pie-chart-small" style={{imgStyle}} />
                         </div>
                     </Col>
                 </Row>
