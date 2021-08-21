@@ -118,7 +118,7 @@ export default function App() {
                 <Row>
                     <Col lg={12}>
                         <div>
-                            <img src={aboutImg} style={imgStyle} />
+                            <img src={aboutImg} className="pie-chart" style={imgStyle} />
                         </div>
                     </Col>
                 </Row>

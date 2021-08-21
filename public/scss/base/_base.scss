@@ -56,3 +56,9 @@ fieldset {
     padding: 0; 
     margin: 0;
 }
+
+@media only screen and (max-width: 960px) {
+    .pie-chart {
+        display: none;
+    }
+}
