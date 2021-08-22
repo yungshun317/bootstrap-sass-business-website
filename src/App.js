@@ -22,6 +22,10 @@ import addressIcon from "../public/assets/asset-122.svg";
 import emailIcon from "../public/assets/asset-111.svg";
 import phoneIcon from "../public/assets/asset-112.svg";
 import phoneNavIcon from "../public/assets/asset-138.svg";
+import workerIcon from "../public/assets/asset-117.svg";
+import projectIcon from "../public/assets/asset-114.svg";
+import awardIcon from "../public/assets/asset-115.svg";
+import supportHourIcon from "../public/assets/asset-110.svg";
 import androidLogo from "../public/assets/Android_robot.svg";
 import awsLogo from "../public/assets/aws.svg";
 import bikeLogo from "../public/assets/bike.svg";
@@ -70,7 +74,8 @@ export default function App() {
     };
 
     const logoStyle = {
-        height: "64px"
+        height: "64px",
+        maxWidth: "64px"
     }
 
     const brandingImages = [
@@ -300,6 +305,7 @@ export default function App() {
                 <Row style={rowStyle}>
                     <Col sm={{span:6, offset:0}} md={{span:2, offset:2}}>
                         <div className="text-center">
+                            <img src={workerIcon} style={logoStyle} />
                             <h4 style={fontStyle}>100</h4>
                             <h6 style={fontStyle}>PROJECTS</h6>
                         </div>
