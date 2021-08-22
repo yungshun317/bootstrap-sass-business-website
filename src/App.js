@@ -306,26 +306,29 @@ export default function App() {
                     <Col sm={{span:6, offset:0}} md={{span:2, offset:2}}>
                         <div className="text-center">
                             <img src={workerIcon} style={logoStyle} />
-                            <h4 style={fontStyle}>100</h4>
+                            <h4 style={fontStyle}>11</h4>
+                            <h6 style={fontStyle}>PARTNERS</h6>
+                        </div>
+                    </Col>
+                    <Col sm={6} md={2}>
+                        <div className="text-center">
+                            <img src={projectIcon} style={logoStyle} />
+                            <h4 style={fontStyle}>342</h4>
                             <h6 style={fontStyle}>PROJECTS</h6>
                         </div>
                     </Col>
                     <Col sm={6} md={2}>
                         <div className="text-center">
-                            <h4 style={fontStyle}>100</h4>
-                            <h6 style={fontStyle}>PROJECTS</h6>
+                            <img src={awardIcon} style={logoStyle} />
+                            <h4 style={fontStyle}>46</h4>
+                            <h6 style={fontStyle}>AWARDS</h6>
                         </div>
                     </Col>
                     <Col sm={6} md={2}>
                         <div className="text-center">
-                            <h4 style={fontStyle}>100</h4>
-                            <h6 style={fontStyle}>PROJECTS</h6>
-                        </div>
-                    </Col>
-                    <Col sm={6} md={2}>
-                        <div className="text-center">
-                            <h4 style={fontStyle}>100</h4>
-                            <h6 style={fontStyle}>PROJECTS</h6>
+                            <img src={supportHourIcon} style={logoStyle} />
+                            <h4 style={fontStyle}>24</h4>
+                            <h6 style={fontStyle}>SUPPORT HOURS</h6>
                         </div>
                     </Col>
                 </Row>
