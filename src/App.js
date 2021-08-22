@@ -69,6 +69,10 @@ export default function App() {
         marginBlockEnd: "16px"
     };
 
+    const logoStyle = {
+        height: "64px"
+    }
+
     const brandingImages = [
         {
             original: typographicSystemImg,
@@ -325,84 +329,84 @@ export default function App() {
                 <Row className="d-flex justify-content-center">
                     <Col xs={3} md={1}>
                         <div style={fontStyle}>
-                            <img src="https://picsum.photos/64/64" />
+                            <img src="https://picsum.photos/64/64" style={logoStyle} />
                         </div>
                     </Col>
                     <Col xs={3} md={1}>
                         <div style={fontStyle}>
-                            <img src="https://picsum.photos/64/64" />
+                            <img src="https://picsum.photos/64/64" style={logoStyle} />
                         </div>
                     </Col>
                     <Col xs={3} md={1}>
                         <div style={fontStyle}>
-                            <img src="https://picsum.photos/64/64" />
+                            <img src="https://picsum.photos/64/64" style={logoStyle} />
                         </div>
                     </Col>
                     <Col xs={3} md={1}>
                         <div style={fontStyle}>
-                            <img src="https://picsum.photos/64/64" />
+                            <img src="https://picsum.photos/64/64" style={logoStyle} />
                         </div>
                     </Col>
                     <Col xs={3} md={1}>
                         <div style={fontStyle}>
-                            <img src="https://picsum.photos/64/64" />
+                            <img src="https://picsum.photos/64/64" style={logoStyle} />
                         </div>
                     </Col>
                     <Col xs={3} md={1}>
                         <div style={fontStyle}>
-                            <img src="https://picsum.photos/64/64" />
+                            <img src="https://picsum.photos/64/64" style={logoStyle} />
                         </div>
                     </Col>
                     <Col xs={3} md={1}>
                         <div style={fontStyle}>
-                            <img src="https://picsum.photos/64/64" />
+                            <img src="https://picsum.photos/64/64" style={logoStyle} />
                         </div>
                     </Col>
                     <Col xs={3} md={1}>
                         <div style={fontStyle}>
-                            <img src="https://picsum.photos/64/64" />
+                            <img src="https://picsum.photos/64/64" style={logoStyle} />
                         </div>
                     </Col>
                 </Row>
                 <Row className="d-flex justify-content-center">
                     <Col xs={3} md={1}>
                         <div style={fontStyle}>
-                            <img src="https://picsum.photos/64/64" />
+                            <img src="https://picsum.photos/64/64" style={logoStyle} />
                         </div>
                     </Col>
                     <Col xs={3} md={1}>
                         <div style={fontStyle}>
-                            <img src="https://picsum.photos/64/64" />
+                            <img src="https://picsum.photos/64/64" style={logoStyle} />
                         </div>
                     </Col>
                     <Col xs={3} md={1}>
                         <div style={fontStyle}>
-                            <img src="https://picsum.photos/64/64" />
+                            <img src="https://picsum.photos/64/64" style={logoStyle} />
                         </div>
                     </Col>
                     <Col xs={3} md={1}>
                         <div style={fontStyle}>
-                            <img src="https://picsum.photos/64/64" />
+                            <img src="https://picsum.photos/64/64" style={logoStyle} />
                         </div>
                     </Col>
                     <Col xs={3} md={1}>
                         <div style={fontStyle}>
-                            <img src="https://picsum.photos/64/64" />
+                            <img src="https://picsum.photos/64/64" style={logoStyle} />
                         </div>
                     </Col>
                     <Col xs={3} md={1}>
                         <div style={fontStyle}>
-                            <img src="https://picsum.photos/64/64" />
+                            <img src="https://picsum.photos/64/64" style={logoStyle} />
                         </div>
                     </Col>
                     <Col xs={3} md={1}>
                         <div style={fontStyle}>
-                            <img src="https://picsum.photos/64/64" />
+                            <img src="https://picsum.photos/64/64" style={logoStyle} />
                         </div>
                     </Col>
                     <Col xs={3} md={1}>
                         <div style={fontStyle}>
-                            <img src="https://picsum.photos/64/64" />
+                            <img src="https://picsum.photos/64/64" style={logoStyle} />
                         </div>
                     </Col>
                 </Row>
