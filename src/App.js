@@ -22,6 +22,22 @@ import addressIcon from "../public/assets/asset-122.svg";
 import emailIcon from "../public/assets/asset-111.svg";
 import phoneIcon from "../public/assets/asset-112.svg";
 import phoneNavIcon from "../public/assets/asset-138.svg";
+import androidLogo from "../public/assets/Android_robot.svg";
+import awsLogo from "../public/assets/aws.svg";
+import bikeLogo from "../public/assets/bike.svg";
+import dockerLogo from "../public/assets/docker.svg";
+import financeLogo from "../public/assets/finance.svg";
+import gearOilLogo from "../public/assets/gear-and-oil.svg";
+import kubernetesLogo from "../public/assets/kubernetes.svg";
+import lotusLogo from "../public/assets/lotus.svg";
+import photographerLogo from "../public/assets/photographer.svg";
+import pytorchLogo from "../public/assets/PyTorch_logo_icon.svg";
+import reactLogo from "../public/assets/React-icon.svg";
+import realEstateLogo from "../public/assets/real-estate.svg";
+import scienceLogo from "../public/assets/science.svg";
+import googleLogo from "../public/assets/search.svg";
+import springLogo from "../public/assets/spring-logo-vector.svg";
+import wingLogo from "../public/assets/wing.svg";
 
 export default function App() {
 
