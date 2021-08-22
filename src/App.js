@@ -329,84 +329,84 @@ export default function App() {
                 <Row className="d-flex justify-content-center">
                     <Col xs={3} md={1}>
                         <div style={fontStyle}>
-                            <img src="https://picsum.photos/64/64" style={logoStyle} />
+                            <img src={googleLogo} style={logoStyle} />
                         </div>
                     </Col>
                     <Col xs={3} md={1}>
                         <div style={fontStyle}>
-                            <img src="https://picsum.photos/64/64" style={logoStyle} />
+                            <img src={awsLogo} style={logoStyle} />
                         </div>
                     </Col>
                     <Col xs={3} md={1}>
                         <div style={fontStyle}>
-                            <img src="https://picsum.photos/64/64" style={logoStyle} />
+                            <img src={androidLogo} style={logoStyle} />
                         </div>
                     </Col>
                     <Col xs={3} md={1}>
                         <div style={fontStyle}>
-                            <img src="https://picsum.photos/64/64" style={logoStyle} />
+                            <img src={kubernetesLogo} style={logoStyle} />
                         </div>
                     </Col>
                     <Col xs={3} md={1}>
                         <div style={fontStyle}>
-                            <img src="https://picsum.photos/64/64" style={logoStyle} />
+                            <img src={reactLogo} style={logoStyle} />
                         </div>
                     </Col>
                     <Col xs={3} md={1}>
                         <div style={fontStyle}>
-                            <img src="https://picsum.photos/64/64" style={logoStyle} />
+                            <img src={dockerLogo} style={logoStyle} />
                         </div>
                     </Col>
                     <Col xs={3} md={1}>
                         <div style={fontStyle}>
-                            <img src="https://picsum.photos/64/64" style={logoStyle} />
+                            <img src={springLogo} style={logoStyle} />
                         </div>
                     </Col>
                     <Col xs={3} md={1}>
                         <div style={fontStyle}>
-                            <img src="https://picsum.photos/64/64" style={logoStyle} />
+                            <img src={pytorchLogo} style={logoStyle} />
                         </div>
                     </Col>
                 </Row>
                 <Row className="d-flex justify-content-center">
                     <Col xs={3} md={1}>
                         <div style={fontStyle}>
-                            <img src="https://picsum.photos/64/64" style={logoStyle} />
+                            <img src={bikeLogo} style={logoStyle} />
                         </div>
                     </Col>
                     <Col xs={3} md={1}>
                         <div style={fontStyle}>
-                            <img src="https://picsum.photos/64/64" style={logoStyle} />
+                            <img src={gearOilLogo} style={logoStyle} />
                         </div>
                     </Col>
                     <Col xs={3} md={1}>
                         <div style={fontStyle}>
-                            <img src="https://picsum.photos/64/64" style={logoStyle} />
+                            <img src={realEstateLogo} style={logoStyle} />
                         </div>
                     </Col>
                     <Col xs={3} md={1}>
                         <div style={fontStyle}>
-                            <img src="https://picsum.photos/64/64" style={logoStyle} />
+                            <img src={scienceLogo} style={logoStyle} />
                         </div>
                     </Col>
                     <Col xs={3} md={1}>
                         <div style={fontStyle}>
-                            <img src="https://picsum.photos/64/64" style={logoStyle} />
+                            <img src={photographerLogo} style={logoStyle} />
                         </div>
                     </Col>
                     <Col xs={3} md={1}>
                         <div style={fontStyle}>
-                            <img src="https://picsum.photos/64/64" style={logoStyle} />
+                            <img src={financeLogo} style={logoStyle} />
                         </div>
                     </Col>
                     <Col xs={3} md={1}>
                         <div style={fontStyle}>
-                            <img src="https://picsum.photos/64/64" style={logoStyle} />
+                            <img src={lotusLogo} style={logoStyle} />
                         </div>
                     </Col>
                     <Col xs={3} md={1}>
                         <div style={fontStyle}>
-                            <img src="https://picsum.photos/64/64" style={logoStyle} />
+                            <img src={wingLogo} style={logoStyle} />
                         </div>
                     </Col>
                 </Row>
