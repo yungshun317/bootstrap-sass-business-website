@@ -434,8 +434,8 @@ export default function App() {
                 <Row>
                     <Col sm={12} md={4}>
                         <div className="text-center" style={{borderStyle:"solid",borderWidth:"1px",borderColor:"#FBFBFD",borderRadius:"6px"}}>
-                            <h2 style={fontStyle}>Lorem Ipsum</h2>
-                            <h1 style={fontStyle}>Lorem Ipsum</h1>
+                            <h4 style={fontStyle}>BASIC</h4>
+                            <h5 style={fontStyle}>Business Website</h5>
                             <p style={fontStyle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus quis massa vel tempus. Nunc laoreet dolor sit amet massa pulvinar, ac tempor nibh pretium. Quisque interdum dolor eu varius varius.</p>
                             <hr style={hrStyle} />
                             <h6 style={fontStyle}>Lorem Ipsum</h6>
@@ -454,8 +454,8 @@ export default function App() {
                     </Col>
                     <Col sm={12} md={4}>
                         <div className="text-center" style={{borderStyle:"solid",borderWidth:"1px",borderColor:"#FBFBFD",borderRadius:"6px"}}>
-                            <h2 style={fontStyle}>Lorem Ipsum</h2>
-                            <h1 style={fontStyle}>Lorem Ipsum</h1>
+                            <h4 style={fontStyle}>STANDARD</h4>
+                            <h5 style={fontStyle}>Modern Web Application</h5>
                             <p style={fontStyle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus quis massa vel tempus. Nunc laoreet dolor sit amet massa pulvinar, ac tempor nibh pretium. Quisque interdum dolor eu varius varius.</p>
                             <hr style={hrStyle} />
                             <h6 style={fontStyle}>Lorem Ipsum</h6>
@@ -474,8 +474,8 @@ export default function App() {
                     </Col>
                     <Col sm={12} md={4}>
                         <div className="text-center" style={{borderStyle:"solid",borderWidth:"1px",borderColor:"#FBFBFD",borderRadius:"6px"}}>
-                            <h2 style={fontStyle}>Lorem Ipsum</h2>
-                            <h1 style={fontStyle}>Lorem Ipsum</h1>
+                            <h4 style={fontStyle}>ENTERPRISE</h4>
+                            <h5 style={fontStyle}>Data-Intensive System</h5>
                             <p style={fontStyle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus quis massa vel tempus. Nunc laoreet dolor sit amet massa pulvinar, ac tempor nibh pretium. Quisque interdum dolor eu varius varius.</p>
                             <hr style={hrStyle} />
                             <h6 style={fontStyle}>Lorem Ipsum</h6>
