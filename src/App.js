@@ -138,7 +138,7 @@ export default function App() {
                     <Col lg={12}>
                         <div className="text-center">
                             <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>ABOUT</h6>
-                            <h4 style={fontStyle}>Your Best Partner for Building Various Software Solutions</h4>
+                            <h4 style={fontStyle}>Your Best Partner for Building Various Software Solutions from <span style={{color:"#00C6D6"}}>Web Applications</span> to <span style={{color:"#00C6D6"}}>Artificial Intelligence</span></h4>
                         </div>
                     </Col>
                 </Row>
@@ -158,7 +158,7 @@ export default function App() {
                     <Col lg={12}>
                         <div className="text-center">
                             <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>PROFESSIONAL</h6>
-                            <h4 style={fontStyle}>We Offer Highest Quality Web Design & Development Service with Most Solid Workflow</h4>
+                            <h4 style={fontStyle}>We Offer <span style={{color:"#00C6D6"}}>Highest Quality</span> Web Design & Development Service with Most Solid Workflow</h4>
                         </div>
                     </Col>
                 </Row>
@@ -195,7 +195,7 @@ export default function App() {
                     <Col lg={12}>
                         <div className="text-center">
                             <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>DATA-DRIVEN</h6>
-                            <h4 style={fontStyle}>Data Experts Solve Your Big Data Problem about 3Vs (Volume, Velocity, and Variety)</h4>
+                            <h4 style={fontStyle}>Data Experts Solve Your <span style={{color:"#00C6D6"}}>Big Data</span> Problem about 3Vs (Volume, Velocity, and Variety)</h4>
                         </div>
                     </Col>
                 </Row>
