@@ -303,28 +303,28 @@ export default function App() {
             {/* [10] Statistics */}
             <Container>
                 <Row style={rowStyle}>
-                    <Col sm={{span:6, offset:0}} md={{span:2, offset:2}}>
+                    <Col xs={{span:6, offset:0}} md={{span:2, offset:2}}>
                         <div className="text-center">
                             <img src={workerIcon} style={logoStyle} />
                             <h4 style={fontStyle}>11</h4>
                             <h6 style={fontStyle}>PARTNERS</h6>
                         </div>
                     </Col>
-                    <Col sm={6} md={2}>
+                    <Col xs={6} md={2}>
                         <div className="text-center">
                             <img src={projectIcon} style={logoStyle} />
                             <h4 style={fontStyle}>342</h4>
                             <h6 style={fontStyle}>PROJECTS</h6>
                         </div>
                     </Col>
-                    <Col sm={6} md={2}>
+                    <Col xs={6} md={2}>
                         <div className="text-center">
                             <img src={awardIcon} style={logoStyle} />
                             <h4 style={fontStyle}>46</h4>
                             <h6 style={fontStyle}>AWARDS</h6>
                         </div>
                     </Col>
-                    <Col sm={6} md={2}>
+                    <Col xs={6} md={2}>
                         <div className="text-center">
                             <img src={supportHourIcon} style={logoStyle} />
                             <h4 style={fontStyle}>24</h4>
@@ -578,13 +578,15 @@ export default function App() {
                     <Row style={{marginTop:"60px",paddingTop:"40px",paddingBottom:"40px"}}>
                         <Col sm={12} md={4}>
                             <div>
-                                <h4 style={fontStyle}>ChouQin Info Co.</h4>
-                                <p style={fontStyle}>Lorem Ipsum</p>
+                                <h4 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>ChouQin Info Co.</h4>
+                                <p style={fontStyle}>2F, No. 72, Sec. 1, Zhongxiao West Rd., Taipei City, Taiwan, 10041</p>
+                                <p style={fontStyle}>0900 615 379</p>
+                                <p style={fontStyle}><a href="mailto: seraph317@gmail.com">seraph317@gmail.com</a></p>
                             </div>
                         </Col>
                         <Col sm={12} md={4}>
                             <div>
-                                <h5 style={fontStyle}>Our Services</h5>
+                                <h5 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>Our Services</h5>
                                 <p style={fontStyle}>Web Development</p>
                                 <p style={fontStyle}>Big Data</p>
                                 <p style={fontStyle}>Cloud Computing</p>
@@ -593,7 +595,7 @@ export default function App() {
                         </Col>
                         <Col sm={12} md={4} className="d-flex align-items-end">
                             <div>
-                                <p>©Copyright <b>ChouQin Info Co.</b> All Rights Reserved</p>
+                                <p>©Copyright <b style={{color:"#00C6D6"}}>ChouQin Info Co.</b> All Rights Reserved</p>
                             </div>
                         </Col>
                     </Row>
