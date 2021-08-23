@@ -112,7 +112,7 @@ export default function App() {
                         <Nav.Link href="#team" style={{color:"#00C6D6"}}><h5>TEAM</h5></Nav.Link>
                         <Nav.Link href="#contact" style={{color:"#00C6D6"}}><h5>CONTACT</h5></Nav.Link>
                         <Nav.Link href="#phone" style={{color:"#00C6D6"}}>
-                            <img src={phoneNavIcon} style={{display:"inline-block",height:"16px",paddingRight:"8px",marginTop:"-4px"}} />
+                            <img src={phoneNavIcon} style={{display:"inline-block",height:"16px",paddingRight:"8px",marginTop:"-6px"}} />
                             <h5 style={{display:"inline-block"}}>0900 615 379</h5>
                         </Nav.Link>
                         {/*
@@ -138,7 +138,7 @@ export default function App() {
                     <Col lg={12}>
                         <div className="text-center">
                             <h6 style={fontStyle}>ABOUT</h6>
-                            <h4 style={fontStyle}>Lorem Ipsum</h4>
+                            <h4 style={fontStyle}>Your Best Partner for Building Various Software Solutions</h4>
                         </div>
                     </Col>
                 </Row>
@@ -158,7 +158,7 @@ export default function App() {
                     <Col lg={12}>
                         <div className="text-center">
                             <h6 style={fontStyle}>PROFESSIONAL</h6>
-                            <h4 style={fontStyle}>Lorem Ipsum</h4>
+                            <h4 style={fontStyle}>We Offer Highest Quality Web Design & Development Service with Most Solid Workflow</h4>
                         </div>
                     </Col>
                 </Row>
@@ -177,7 +177,7 @@ export default function App() {
                     <Col lg={12}>
                         <div className="text-center">
                             <h6 style={fontStyle}>PROGRESSIVE</h6>
-                            <h4 style={fontStyle}>Lorem Ipsum</h4>
+                            <h4 style={fontStyle}>Most Software Outsourcing Companies Build Your Websites with Outdated High-Risk Templates & Frameworks from 10 Years Ago</h4>
                         </div>
                     </Col>
                 </Row>
@@ -195,7 +195,7 @@ export default function App() {
                     <Col lg={12}>
                         <div className="text-center">
                             <h6 style={fontStyle}>DATA-DRIVEN</h6>
-                            <h4 style={fontStyle}>Lorem Ipsum</h4>
+                            <h4 style={fontStyle}>Data Experts Solve Your Big Data Problem about 3Vs (Volume, Velocity, and Variety)</h4>
                         </div>
                     </Col>
                 </Row>
