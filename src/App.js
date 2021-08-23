@@ -137,7 +137,7 @@ export default function App() {
                 <Row style={rowStyle}>
                     <Col lg={12}>
                         <div className="text-center">
-                            <h6 style={fontStyle}>ABOUT</h6>
+                            <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>ABOUT</h6>
                             <h4 style={fontStyle}>Your Best Partner for Building Various Software Solutions</h4>
                         </div>
                     </Col>
@@ -157,7 +157,7 @@ export default function App() {
                 <Row style={rowStyle}>
                     <Col lg={12}>
                         <div className="text-center">
-                            <h6 style={fontStyle}>PROFESSIONAL</h6>
+                            <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>PROFESSIONAL</h6>
                             <h4 style={fontStyle}>We Offer Highest Quality Web Design & Development Service with Most Solid Workflow</h4>
                         </div>
                     </Col>
@@ -176,8 +176,8 @@ export default function App() {
                 <Row style={rowStyle}>
                     <Col lg={12}>
                         <div className="text-center">
-                            <h6 style={fontStyle}>PROGRESSIVE</h6>
-                            <h4 style={fontStyle}>Most Software Outsourcing Companies Build Your Websites with Outdated High-Risk Templates & Frameworks from 10 Years Ago</h4>
+                            <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>PROGRESSIVE</h6>
+                            <h4 style={fontStyle}>Do You Know Most Software Outsourcing Companies Build Your Websites with Outdated High-Risk Templates & Frameworks from 10 Years Ago?</h4>
                         </div>
                     </Col>
                 </Row>
@@ -194,7 +194,7 @@ export default function App() {
                 <Row style={rowStyle}>
                     <Col lg={12}>
                         <div className="text-center">
-                            <h6 style={fontStyle}>DATA-DRIVEN</h6>
+                            <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>DATA-DRIVEN</h6>
                             <h4 style={fontStyle}>Data Experts Solve Your Big Data Problem about 3Vs (Volume, Velocity, and Variety)</h4>
                         </div>
                     </Col>
@@ -218,7 +218,7 @@ export default function App() {
                 <Row style={rowStyle}>
                     <Col lg={12}>
                         <div className="text-center">
-                            <h6 style={fontStyle}>INNOVATIVE</h6>
+                            <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>INNOVATIVE</h6>
                             <h4 style={fontStyle}>Lorem Ipsum</h4>
                         </div>
                     </Col>
@@ -251,7 +251,7 @@ export default function App() {
                 <Row style={rowStyle}>
                     <Col lg={12}>
                         <div className="text-center">
-                            <h6 style={fontStyle}>CREATIVE</h6>
+                            <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>CREATIVE</h6>
                             <h4 style={fontStyle}>Lorem Ipsum</h4>
                         </div>
                     </Col>
@@ -269,7 +269,7 @@ export default function App() {
                 <Row style={rowStyle}>
                     <Col lg={12}>
                         <div className="text-center">
-                            <h6 style={fontStyle}>PROACTIVE</h6>
+                            <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>PROACTIVE</h6>
                             <h4 style={fontStyle}>Lorem Ipsum</h4>
                         </div>
                     </Col>
@@ -287,7 +287,7 @@ export default function App() {
                 <Row style={rowStyle}>
                     <Col lg={12}>
                         <div className="text-center">
-                            <h6 style={fontStyle}>TEAM</h6>
+                            <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>TEAM</h6>
                             <h4 style={fontStyle}>Lorem Ipsum</h4>
                         </div>
                     </Col>
@@ -426,7 +426,7 @@ export default function App() {
                 <Row style={rowStyle}>
                     <Col lg={12}>
                         <div className="text-center">
-                            <h6 style={fontStyle}>SERVICES</h6>
+                            <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>SERVICES</h6>
                             <h4 style={fontStyle}>Lorem Ipsum</h4>
                         </div>
                     </Col>
@@ -499,7 +499,7 @@ export default function App() {
                 <Row style={rowStyle}>
                     <Col lg={12}>
                         <div className="text-center">
-                            <h6 style={fontStyle}>CONTACT</h6>
+                            <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>CONTACT</h6>
                             <h4 style={fontStyle}>Lorem Ipsum</h4>
                         </div>
                     </Col>
