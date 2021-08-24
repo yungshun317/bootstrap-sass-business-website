@@ -456,6 +456,8 @@ export default function App() {
                             <h6 style={fontStyle}>Branding Design</h6>
                             <h6 style={fontStyle}>UI/UX Design</h6>
                             <h6 style={fontStyle}>Web Development</h6>
+                            <h6 style={fontStyle}>Performance Optimization</h6>
+                            <h6 style={fontStyle}>Server Administration Service</h6>
                             <hr style={hrStyle} />
                             <Row>
                                 <Col md={{span:8, offset:2}}>
@@ -469,20 +471,20 @@ export default function App() {
                     <Col sm={12} md={4} className="d-flex">
                         <div className="text-center flex-fill" style={{borderStyle:"solid",borderWidth:"1px",borderColor:"#FBFBFD",borderRadius:"6px"}}>
                             <h4 style={fontStyle}>STANDARD</h4>
-                            <h5 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>Modern Web Application</h5>
+                            <h5 style={{color:"#FF0099",marginBlockStart:"16px",marginBlockEnd:"16px"}}>Modern Web Application</h5>
                             <p style={{marginBlockStart:"16px",marginBlockEnd:"16px",marginLeft:"12px",marginRight:"12px"}}>
                                 From E-Commerce, Web Services, Content Management System, Mobile Applications, to Online Reservation System, Digitalize Your Business Helps You
                                 Cut on Costs, Erase Geolocation Limits, Improve Customer Service, Reach out to Mobile Users, Make Business Operations more Efficient.
                             </p>
                             <hr style={hrStyle} />
-                            <h6 style={fontStyle}>ALL in BASIC Class</h6>
+                            <h6 style={fontStyle}><span style={{color:"#FF0099"}}>ALL in BASIC Class</span></h6>
                             <h6 style={fontStyle}>Content Management System</h6>
                             <h6 style={fontStyle}>Monitoring Dashboard</h6>
                             <hr style={hrStyle} />
                             <Row>
                                 <Col md={{span:8, offset:2}}>
                                     <div>
-                                        <a className="btn" style={{marginBottom:"16px",backgroundColor:"#00C6D6",width:"80%"}}><h5 style={{marginBottom:"0"}}>START</h5></a>
+                                        <a className="btn" style={{marginBottom:"16px",backgroundColor:"#FF0099",width:"80%"}}><h5 style={{marginBottom:"0"}}>START</h5></a>
                                     </div>
                                 </Col>
                             </Row>
@@ -497,7 +499,8 @@ export default function App() {
                                 Requirements.
                             </p>
                             <hr style={hrStyle} />
-                            <h6 style={fontStyle}>ALL in STANDARD Class</h6>
+                            <h6 style={fontStyle}><span style={{color:"#00C6D6"}}>ALL in STANDARD Class</span></h6>
+                            <h6 style={fontStyle}>Site Reliability Engineering</h6>
                             <h6 style={fontStyle}>Cyber Security</h6>
                             <h6 style={fontStyle}>Digital Marketing</h6>
                             <h6 style={fontStyle}>More Specialized Features</h6>
