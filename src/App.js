@@ -449,7 +449,9 @@ export default function App() {
                         <div className="text-center flex-fill" style={{borderStyle:"solid",borderWidth:"1px",borderColor:"#FBFBFD",borderRadius:"6px"}}>
                             <h4 style={fontStyle}>BASIC</h4>
                             <h5 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>Business Website</h5>
-                            <p style={fontStyle}>A Good Website Boosts Your Business. We Provide Customized or Template-Based Web Design with High Quality but Low Price.</p>
+                            <p style={{marginBlockStart:"16px",marginBlockEnd:"16px",marginLeft:"12px",marginRight:"12px"}}>
+                                A Good Website Boosts Your Business. We Provide Customized or Template-Based Web Design with High Quality but Low Price.
+                            </p>
                             <hr style={hrStyle} />
                             <h6 style={fontStyle}>Branding Design</h6>
                             <h6 style={fontStyle}>UI/UX Design</h6>
@@ -458,7 +460,7 @@ export default function App() {
                             <Row>
                                 <Col md={{span:8, offset:2}}>
                                     <div>
-                                        <a className="btn btn-success" style={{marginBottom:"16px"}}>START</a>
+                                        <a className="btn" style={{marginBottom:"16px",backgroundColor:"#00C6D6",width:"80%"}}><h5 style={{marginBottom:"0"}}>START</h5></a>
                                     </div>
                                 </Col>
                             </Row>
@@ -468,7 +470,7 @@ export default function App() {
                         <div className="text-center flex-fill" style={{borderStyle:"solid",borderWidth:"1px",borderColor:"#FBFBFD",borderRadius:"6px"}}>
                             <h4 style={fontStyle}>STANDARD</h4>
                             <h5 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>Modern Web Application</h5>
-                            <p style={fontStyle}>
+                            <p style={{marginBlockStart:"16px",marginBlockEnd:"16px",marginLeft:"12px",marginRight:"12px"}}>
                                 From E-Commerce, Web Services, Content Management System, Mobile Applications, to Online Reservation System, Digitalize Your Business Helps You
                                 Cut on Costs, Erase Geolocation Limits, Improve Customer Service, Reach out to Mobile Users, Make Business Operations more Efficient.
                             </p>
@@ -480,7 +482,7 @@ export default function App() {
                             <Row>
                                 <Col md={{span:8, offset:2}}>
                                     <div>
-                                        <a className="btn btn-success" style={{marginBottom:"16px"}}>START</a>
+                                        <a className="btn" style={{marginBottom:"16px",backgroundColor:"#00C6D6",width:"80%"}}><h5 style={{marginBottom:"0"}}>START</h5></a>
                                     </div>
                                 </Col>
                             </Row>
@@ -490,7 +492,7 @@ export default function App() {
                         <div className="text-center flex-fill" style={{borderStyle:"solid",borderWidth:"1px",borderColor:"#FBFBFD",borderRadius:"6px"}}>
                             <h4 style={fontStyle}>ENTERPRISE</h4>
                             <h5 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>Data-Intensive System</h5>
-                            <p style={fontStyle}>
+                            <p style={{marginBlockStart:"16px",marginBlockEnd:"16px",marginLeft:"12px",marginRight:"12px"}}>
                                 Big Data & Artificial Intelligence Team Leverage Your Business Growth with Progressive Technologies. Meet Your Compliance, Audit & Cyber Security
                                 Requirements.
                             </p>
@@ -498,12 +500,12 @@ export default function App() {
                             <h6 style={fontStyle}>ALL in STANDARD Class</h6>
                             <h6 style={fontStyle}>Cyber Security</h6>
                             <h6 style={fontStyle}>Digital Marketing</h6>
-                            <h6 style={fontStyle}>Specialized Features</h6>
+                            <h6 style={fontStyle}>More Specialized Features</h6>
                             <hr style={hrStyle} />
                             <Row>
                                 <Col md={{span:8, offset:2}}>
                                     <div>
-                                        <a className="btn btn-success" style={{marginBottom:"16px"}}>START</a>
+                                        <a className="btn" style={{marginBottom:"16px",backgroundColor:"#00C6D6",width:"80%"}}><h5 style={{marginBottom:"0"}}>START</h5></a>
                                     </div>
                                 </Col>
                             </Row>
