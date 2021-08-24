@@ -445,8 +445,8 @@ export default function App() {
                     </Col>
                 </Row>
                 <Row>
-                    <Col sm={12} md={4}>
-                        <div className="text-center" style={{borderStyle:"solid",borderWidth:"1px",borderColor:"#FBFBFD",borderRadius:"6px"}}>
+                    <Col sm={12} md={4} className="d-flex">
+                        <div className="text-center flex-fill" style={{borderStyle:"solid",borderWidth:"1px",borderColor:"#FBFBFD",borderRadius:"6px"}}>
                             <h4 style={fontStyle}>BASIC</h4>
                             <h5 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>Business Website</h5>
                             <p style={fontStyle}>A Good Website Boosts Your Business. We Provide Customized or Template-Based Web Design with High Quality but Low Price.</p>
@@ -464,8 +464,8 @@ export default function App() {
                             </Row>
                         </div>
                     </Col>
-                    <Col sm={12} md={4}>
-                        <div className="text-center" style={{borderStyle:"solid",borderWidth:"1px",borderColor:"#FBFBFD",borderRadius:"6px"}}>
+                    <Col sm={12} md={4} className="d-flex">
+                        <div className="text-center flex-fill" style={{borderStyle:"solid",borderWidth:"1px",borderColor:"#FBFBFD",borderRadius:"6px"}}>
                             <h4 style={fontStyle}>STANDARD</h4>
                             <h5 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>Modern Web Application</h5>
                             <p style={fontStyle}>
@@ -486,8 +486,8 @@ export default function App() {
                             </Row>
                         </div>
                     </Col>
-                    <Col sm={12} md={4}>
-                        <div className="text-center" style={{borderStyle:"solid",borderWidth:"1px",borderColor:"#FBFBFD",borderRadius:"6px"}}>
+                    <Col sm={12} md={4} className="d-flex">
+                        <div className="text-center flex-fill" style={{borderStyle:"solid",borderWidth:"1px",borderColor:"#FBFBFD",borderRadius:"6px"}}>
                             <h4 style={fontStyle}>ENTERPRISE</h4>
                             <h5 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>Data-Intensive System</h5>
                             <p style={fontStyle}>
