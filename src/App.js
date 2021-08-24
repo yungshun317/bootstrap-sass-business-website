@@ -202,8 +202,13 @@ export default function App() {
                 <Row>
                     <Col sm={12} md={6} className="d-flex align-items-center">
                         <div>
-                            <h5>Lorem Ipsum</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec ornare arcu. Curabitur suscipit accumsan tellus ac ornare. Curabitur ac ligula ligula.</p>
+                            <h5>Reliable & Scalable & Maintainable Systems</h5>
+                            <p>
+                                As Our Clients, You can Benefit from Best Parts of Modern Web Development Technologies including
+                                DevOps Experience, Auto Scaling & Self Healing, Resilience & Fault Tolerance, Distributed Tracing,
+                                Centralized Metrics & Logging, Load Balancing, Configuration Management, Continuous Integration &
+                                Delivery & Deployment... and More from Top Software Companies.
+                            </p>
                         </div>
                     </Col>
                     <Col sm={12} md={6}>
@@ -219,7 +224,7 @@ export default function App() {
                     <Col lg={12}>
                         <div className="text-center">
                             <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>INNOVATIVE</h6>
-                            <h4 style={fontStyle}>Lorem Ipsum</h4>
+                            <h4 style={fontStyle}>Fortune Favors the Brave</h4>
                         </div>
                     </Col>
                 </Row>
@@ -240,8 +245,13 @@ export default function App() {
                     </Col>
                     <Col sm={12} md={6} className="d-flex align-items-center">
                         <div>
-                            <h5>Lorem Ipsum</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec ornare arcu. Curabitur suscipit accumsan tellus ac ornare. Curabitur ac ligula ligula.</p>
+                            <h5>Embrace Innovations</h5>
+                            <p>
+                                Creativity is Intelligence having fun. We are Early Adopters, Practical Idealists, and Geeks.
+                                We are Fascinated with all 10 Types of Innovations: Profit Model, Network, Structure, Process,
+                                Product Performance, Product System, Service, Channel, Brand, and Customer Engagement.
+                                We Balance Innovation and Stability.
+                            </p>
                         </div>
                     </Col>
                 </Row>
@@ -252,7 +262,10 @@ export default function App() {
                     <Col lg={12}>
                         <div className="text-center">
                             <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>CREATIVE</h6>
-                            <h4 style={fontStyle}>Lorem Ipsum</h4>
+                            <h4 style={fontStyle}>
+                                Why does Your Website look Bland or Mediocre?
+                                We are the First Company Consider <span style={{color:"#00C6D6"}}>Branding Design Principles</span> in Web Design
+                            </h4>
                         </div>
                     </Col>
                 </Row>
@@ -270,7 +283,7 @@ export default function App() {
                     <Col lg={12}>
                         <div className="text-center">
                             <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>PROACTIVE</h6>
-                            <h4 style={fontStyle}>Lorem Ipsum</h4>
+                            <h4 style={fontStyle}><span style={{color:"#00C6D6"}}>UX</span> is not just Common Sense; It has a Series of Professional Processes with Concrete Outputs</h4>
                         </div>
                     </Col>
                 </Row>
@@ -288,7 +301,7 @@ export default function App() {
                     <Col lg={12}>
                         <div className="text-center">
                             <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>TEAM</h6>
-                            <h4 style={fontStyle}>Lorem Ipsum</h4>
+                            <h4 style={fontStyle}>Professional Team Come from <span style={{color:"#00C6D6"}}>Silicon Valley, Bay Area</span>, International Enterprises & Research Organizations</h4>
                         </div>
                     </Col>
                 </Row>
@@ -427,7 +440,7 @@ export default function App() {
                     <Col lg={12}>
                         <div className="text-center">
                             <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>SERVICES</h6>
-                            <h4 style={fontStyle}>Lorem Ipsum</h4>
+                            <h4 style={fontStyle}><span style={{color:"#00C6D6"}}>Best Price Match Guarantee:</span> We will Price Match if You Find Your Project Cheaper Somewhere Else</h4>
                         </div>
                     </Col>
                 </Row>
@@ -500,7 +513,7 @@ export default function App() {
                     <Col lg={12}>
                         <div className="text-center">
                             <h6 style={{color:"#00C6D6",marginBlockStart:"16px",marginBlockEnd:"16px"}}>CONTACT</h6>
-                            <h4 style={fontStyle}>Lorem Ipsum</h4>
+                            <h4 style={fontStyle}>Please Feel Free to Contact Us if You Have Any Questions</h4>
                         </div>
                     </Col>
                 </Row>
