@@ -129,7 +129,12 @@ export default function App() {
             </Navbar>
 
             {/* [1] Hero Video */}
-            <div className="bg-light" style={{height:"900px"}}>
+            <div className="bg-light" style={{width:"100%"}}>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/rTtSwHkpRC8"
+                        title="YouTube video player" frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen>
+                </iframe>
             </div>
             {/* [2] About */}
 
