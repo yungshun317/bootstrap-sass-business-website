@@ -208,6 +208,19 @@ export default function App() {
                         </div>
                     </Col>
                 </Row>
+                <Row className="mobile-text">
+                    <Col className="mobile-text" xs={12} style={{marginTop:"20px",marginBottom:"20px"}}>
+                        <h5 className="mobile-text" style={fontStyle} className="mobile-text" style={fontStyle}>4 Steps to Success:</h5>
+                        <h6 className="mobile-text" style={fontStyle}>PLANNING: BRANDING</h6>
+                        <h6 className="mobile-text" style={fontStyle}>MILESTONES: UI/UX</h6>
+                        <h6 className="mobile-text" style={fontStyle}>EARLY WINS: DEVELOPMENT</h6>
+                        <h6 className="mobile-text" style={fontStyle}>EVOLVE: DELIVERY</h6>
+                        <p className="mobile-text" style={fontStyle}>
+                            Give You Full Experience on the Most Solid Modern Web Development Workflow in Software Engineering Industry. Inject the Secret Formula of Branding & Digital Marketing
+                            into Your Web Applications.
+                        </p>
+                    </Col>
+                </Row>
             </Container>
             {/* [5] Service - Development Section 3 */}
             <Container>
