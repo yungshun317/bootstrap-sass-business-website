@@ -156,6 +156,20 @@ export default function App() {
                         </div>
                     </Col>
                 </Row>
+                <Row className="mobile-text">
+                    <Col className="mobile-text" xs={12} style={{marginTop:"20px",marginBottom:"20px"}}>
+                        <h5 className="mobile-text" style={fontStyle}>Web Application</h5>
+                        <p className="mobile-text" style={fontStyle}>From Enterprise Website, E-Commerce, to Mobile Application, We Deliver the Most Reliable, Scalable, and Maintainable Systems.</p>
+                        <h5 className="mobile-text" style={fontStyle}>Cloud Computing</h5>
+                        <p className="mobile-text" style={fontStyle}>Own Web Applications with Microservice Architecture which Redefines Cost Optimization on Cloud.</p>
+                        <h5 className="mobile-text" style={fontStyle}>Artificial Intelligence</h5>
+                        <p className="mobile-text" style={fontStyle}>Award-Winning AI Team Helps You Boost Sales, Improve Finances with State-of-the-Art Machine Learning Models.</p>
+                        <h5 className="mobile-text" style={fontStyle}>Cyber Security</h5>
+                        <p className="mobile-text" style={fontStyle}>Masters of Cyber Security from Financial Industry Safeguard Your Applications against all Online Threats and Keep Your Precious Data out of the Hands of the Bad Guys.</p>
+                        <h5 className="mobile-text" style={fontStyle}>Big Data</h5>
+                        <p className="mobile-text" style={fontStyle}>Design Data-Intensive Applications with High-Volume Batch Processing, Real-Time Stream Processing Techniques.</p>
+                    </Col>
+                </Row>
             </Container>
 
             {/* [3] Service - Development Section 1 */}
