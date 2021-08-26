@@ -111,7 +111,7 @@ export default function App() {
                         <Nav.Link href="#services" style={{color:"#00C6D6"}}><h5>SERVICES</h5></Nav.Link>
                         <Nav.Link href="#team" style={{color:"#00C6D6"}}><h5>TEAM</h5></Nav.Link>
                         <Nav.Link href="#contact" style={{color:"#00C6D6"}}><h5>CONTACT</h5></Nav.Link>
-                        <Nav.Link href="#phone" style={{color:"#00C6D6"}}>
+                        <Nav.Link href="#" style={{color:"#00C6D6"}}>
                             <img src={phoneNavIcon} style={{display:"inline-block",height:"16px",paddingRight:"8px",marginTop:"-6px"}} />
                             <h5 style={{display:"inline-block"}}>0900 615 379</h5>
                         </Nav.Link>
@@ -129,7 +129,7 @@ export default function App() {
             </Navbar>
 
             {/* [1] Hero Video */}
-            <div className="bg-light" style={{position:"relative",height:"0",overflow:"hidden",paddingBottom:"56.25%"}}>
+            <div className="bg-light" id="home" style={{position:"relative",height:"0",overflow:"hidden",paddingBottom:"56.25%"}}>
                 <iframe style={{position:"absolute",top:"0",left:"0",width:"100%",height:"100%"}}
                         src="https://www.youtube.com/embed/rTtSwHkpRC8?version=3&autoplay=1&mute=1&rel=0&controls=0&modestbranding"
                         title="YouTube video player" frameBorder="0"
@@ -139,7 +139,7 @@ export default function App() {
             </div>
             {/* [2] About */}
 
-            <Container>
+            <Container id="services">
                 <Row style={rowStyle}>
                     <Col lg={12}>
                         <div className="text-center">
@@ -190,6 +190,19 @@ export default function App() {
                         </div>
                     </Col>
                 </Row>
+                <Row className="mobile-text">
+                    <Col className="mobile-text" xs={12} style={{marginTop:"20px",marginBottom:"20px"}}>
+                        <h5 className="mobile-text" style={fontStyle} className="mobile-text" style={fontStyle}>4 Steps to Success:</h5>
+                        <h6 className="mobile-text" style={fontStyle}>PLANNING: <span style={{color:"#00C6D6"}}>BRANDING</span></h6>
+                        <h6 className="mobile-text" style={fontStyle}>MILESTONES: <span style={{color:"#00C6D6"}}>UI/UX</span></h6>
+                        <h6 className="mobile-text" style={fontStyle}>EARLY WINS: <span style={{color:"#00C6D6"}}>DEVELOPMENT</span></h6>
+                        <h6 className="mobile-text" style={fontStyle}>EVOLVE: <span style={{color:"#00C6D6"}}>DELIVERY</span></h6>
+                        <p className="mobile-text" style={fontStyle}>
+                            Give You Full Experience on the Most Solid Modern Web Development Workflow in Software Engineering Industry. Inject the Secret Formula of Branding & Digital Marketing
+                            into Your Web Applications.
+                        </p>
+                    </Col>
+                </Row>
             </Container>
             {/* [4] Service - Development Section 2 */}
             <Container>
@@ -206,19 +219,6 @@ export default function App() {
                         <div>
                             <img src={progressiveImg} style={imgStyle} />
                         </div>
-                    </Col>
-                </Row>
-                <Row className="mobile-text">
-                    <Col className="mobile-text" xs={12} style={{marginTop:"20px",marginBottom:"20px"}}>
-                        <h5 className="mobile-text" style={fontStyle} className="mobile-text" style={fontStyle}>4 Steps to Success:</h5>
-                        <h6 className="mobile-text" style={fontStyle}>PLANNING: BRANDING</h6>
-                        <h6 className="mobile-text" style={fontStyle}>MILESTONES: UI/UX</h6>
-                        <h6 className="mobile-text" style={fontStyle}>EARLY WINS: DEVELOPMENT</h6>
-                        <h6 className="mobile-text" style={fontStyle}>EVOLVE: DELIVERY</h6>
-                        <p className="mobile-text" style={fontStyle}>
-                            Give You Full Experience on the Most Solid Modern Web Development Workflow in Software Engineering Industry. Inject the Secret Formula of Branding & Digital Marketing
-                            into Your Web Applications.
-                        </p>
                     </Col>
                 </Row>
             </Container>
@@ -329,7 +329,7 @@ export default function App() {
                 </Row>
             </Container>
             {/* [9] Team */}
-            <Container>
+            <Container id="team">
                 <Row style={rowStyle}>
                     <Col lg={12}>
                         <div className="text-center">
@@ -550,7 +550,7 @@ export default function App() {
                 </Row>
             </Container>
             {/* [13] Form */}
-            <Container>
+            <Container id="contact">
                 <Row style={rowStyle}>
                     <Col lg={12}>
                         <div className="text-center">
@@ -628,6 +628,7 @@ export default function App() {
                     </Col>
                 </Row>
             </Container>
+            {/* [14] Footer */}
             <div style={{backgroundColor:"rgba(112,112,112,0.05)"}}>
                 <Container>
                     <Row style={{marginTop:"60px",paddingTop:"40px",paddingBottom:"40px"}}>
